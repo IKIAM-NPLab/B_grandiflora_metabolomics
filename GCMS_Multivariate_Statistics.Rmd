@@ -41,6 +41,9 @@ library(notame)
 # Dependency packages installation
 install_dependencies
 
+# Library to use "mutate" function
+library(tidyverse)
+
 ```
 
 Then, a primary path and a log system were added to have a record of each process executed.
@@ -110,7 +113,7 @@ raw_pca + raw_bp
 
 Avoid features with a low detection rate in the quality control (QC) sample and the sample groups.
 
-Then, features with low detection rates are flagged and can be ignored or removed in subsequent analysis. The “*notame*” package uses two criteria to flag these features: the feature's presence in a percentage of QC injections and the feature's presence in a percentage within a sample group or class.
+Then, features with low detection rates are flagged and removed. The “*notame*” package uses two criteria to flag these features: the feature's presence in a percentage of QC injections and the feature's presence in a percentage within a sample group or class. Also, we improve the data acquisition using QCs pooled from each experimental group of samples separately insted of QCs pooled from all samples; we considered features as "Low_qc_detection" if the feature is in at least of 60 % of QCs.
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
 
@@ -118,7 +121,18 @@ Then, features with low detection rates are flagged and can be ignored or remove
 low_dr <- flag_detection(mode, qc_limit = 0, group_limit = 3/5)
 # Extract clean data
 low_dr <- drop_flagged(low_dr)
-
+# Improve the low detection rate in the QC samples
+fData(low_dr) <- fData(low_dr) %>%
+  mutate(Flag = case_when(`Detection_rate_Group_Leaves pool` < 0.6 &
+                            `Detection_rate_Group_Roots pool` < 0.6 &
+                            `Detection_rate_Group_Stem bark pool` < 0.6 &
+                            Detection_rate_QC < 0.6 ~ "Low_qc_detection"))
+# Show the percentage of flagged features as "Low_qc_detection"
+percentage <- scales::percent(sum(flag(low_dr) == "Low_qc_detection",
+                                  na.rm = TRUE)/nrow(fData(low_dr)))
+log_text(paste0("\n", percentage, " of features flagged for Low QC detection rate"))
+# Extract clean data
+low_dr <- drop_flagged(low_dr)
 ```
 
 The following preprocessing step is drift correction, which is applied using smoothed cubic spline regression.
@@ -137,7 +151,6 @@ Adding a unique identifier for the drift result that was added in the last step.
 ```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
 
 # Adding a unique identifier for the drift result
-names(fData(mode))[names(fData(mode)) == "Detection_rate_QC"] <- "D_rate_QC_all"
 names(fData(mode))[names(fData(mode)) == "Flag"] <- "Flag_all"
 names(fData(mode))[names(fData(mode)) == "RSD"] <- "RSD_all"
 names(fData(mode))[names(fData(mode)) == "D_ratio"] <- "D_ratio_all"
@@ -323,8 +336,6 @@ Adding the "Low_quality" flag for features that were flagged as low quality in a
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
 
-# Library to use "mutate" function
-library(tidyverse)
 # Adding the "Low_quality" flag
 fData(merged) <- fData(merged) %>%
   mutate(Flag = case_when(Flag_all == "Low_quality" &

@@ -29,7 +29,7 @@ The “*notame*” package and other dependency packages were installed as a fir
 
 ```{r echo=TRUE, message=FALSE}
 
-# Notame package installation
+# Notame package installationn
 #if (!requireNamespace("devtools", quietly = TRUE)) {
 #  install.packages("devtools")
 #}

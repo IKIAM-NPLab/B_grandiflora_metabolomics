@@ -71,9 +71,16 @@ mzmine_rt$RI <- mzmine_ri
 mzmine_rt <- mzmine_rt[,c(1:3, 47, 4:46)]
 ##Exporting the MZmine feature list with RI
 write_xlsx(mzmine_rt, "../B_grandiflora_metabolomics/Result/MZmine_Feature_List_3to21min_polar_column_RI.xlsx")
-
-
-
+##Feature list deconvoluted with MZmine (21 to 37 min dataset)
+mzmine_rt21to37 <- read_excel("../B_grandiflora_metabolomics/Data/MZmine_Feature_List_21to37min_polar_column.xlsx", sheet = 1)
+##RI calculation (21 to 37 min dataset)
+mzmine_ri21to37 <- indexRtime(mzmine_rt21to37$`row retention time`, alkane_data)
+##Adding the RI to the MZmine feature list (21 to 37 min dataset)
+mzmine_rt21to37$RI <- mzmine_ri21to37
+## Moving the RI column close to the RT column (21 to 37 min dataset)
+mzmine_rt21to37 <- mzmine_rt21to37[,c(1:3, 48, 4:47)]
+##Exporting the MZmine feature list with RI
+write_xlsx(mzmine_rt21to37, "../B_grandiflora_metabolomics/Result/MZmine_Feature_List_21to37min_polar_column_RI.xlsx")
 
 
 

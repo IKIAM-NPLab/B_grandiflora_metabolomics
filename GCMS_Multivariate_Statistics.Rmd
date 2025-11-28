@@ -81,53 +81,6 @@ data <- import_from_excel(file = "Data/notame/GCMS_B_grandiflora_feat_list_2nota
 ```
 
 ## Preprocessing
-
-Raw data visualization before data preprocessing.
-
-```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
-# Data extraction
-mode <- data 
-# Extracting feature height table
-peak_height <- mode@assays@data@listData[[1]]
-# Extracting phenotypic data
-pheno_data <- data.frame(mode@colData@listData)
-  
-# Transposing feature height table
-transp_table  <- t(peak_height)
-# Centering and Scaling features
-
-ei_pca <- prcomp(transp_table, center = TRUE, scale. = TRUE)
-
-# Library to left_join use
-library(dplyr)
-# PCA scores
-scores <- ei_pca$x %>%                   # Get PC coordinates
-  data.frame %>%                         # Convert to data frames
-  mutate(Sample_ID = rownames(.)) %>%    # Create a new column with the sample names
-  left_join(pheno_data)                  # Adding metadata
-# PCA plot
-raw_pca <- ggplot(scores,
-       aes(PC1, PC2, shape = Group, color = Group)) +
-  geom_point(size = 3) +
-  guides(x=guide_axis(title = "PC1 (25.76 %)"),
-         y=guide_axis(title = "PC2 (18.16 %)")) +
-  labs(shape = 'Group', color= 'Group') +
-  theme_classic() +
-  theme(legend.text = element_text(face="italic")) +
-  theme(legend.position = c(0.78, 0.79),
-        legend.background = element_rect(fill = "white", color = "black")) +
-  theme(panel.grid = element_blank(), 
-        panel.border = element_rect(fill= "transparent")) +
-  geom_vline(xintercept = 0, linetype = "longdash", colour="gray") +
-  geom_hline(yintercept = 0, linetype = "longdash", colour="gray")
-pca_plot
-
-# Package to plots visualization in a same windows
-library(patchwork)
-# Plot
-raw_pca
-
-```
 The first step of the preprocessing is to change the features with a value equal to 0 to NA.
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
@@ -372,15 +325,55 @@ Merge the result of drift correction.
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
 
-merged <- merge_notame_sets(corrected_r, corrected_b, corrected_l, qc_sample, merge = 'samples')
-
-merge_notame_sets(corrected_r, corrected_l, corrected_b,  merge = 'samples')
+merged <- merge_notame_sets(corrected_r, corrected_b, corrected_l, merge = 'samples')
 
 
-merged <- merge_notame_sets(corrected_r, corrected_b, merge = 'samples') ##
-merged <- merge_notame_sets(corrected_b, corrected_l, merge = 'samples')
-merged <- merge_notame_sets(corrected_l, qc_sample, merge = 'samples')
-merged2 <- merge_notame_sets(merged, corrected_l, merge = 'samples')
+# Verify and sort the rownames
+if (!identical(rownames(corrected_r), rownames(corrected_l)) || 
+    !identical(rownames(corrected_r), rownames(corrected_b))) {
+  
+  common_features <- Reduce(intersect, list(
+    rownames(corrected_r), 
+    rownames(corrected_l), 
+    rownames(corrected_b)
+  ))
+  
+  corrected_r <- corrected_r[common_features, ]
+  corrected_l <- corrected_l[common_features, ]
+  corrected_b <- corrected_b[common_features, ]
+}
+
+# Merge
+result <- merge_notame_sets(corrected_r, corrected_l, corrected_b, merge = 'samples')
+# Manually
+# Combine assays
+combined_assay <- cbind(
+  assay(corrected_r),
+  assay(corrected_l), 
+  assay(corrected_b),
+  assay(qc_sample)
+)
+
+# Combine colData
+combined_colData <- rbind(
+  colData(corrected_r),
+  colData(corrected_l),
+  colData(corrected_b),
+  colData(qc_sample)
+)
+# Combine rowData
+combined_rowData <- cbind(
+  rowData(corrected_r),
+  rowData(corrected_l),
+  rowData(corrected_b)
+)
+  
+# Create new SummarizedExperiment
+combined_se <- SummarizedExperiment(
+  assays = list(assay = combined_assay),
+  colData = combined_colData,
+  rowData = combined_rowData
+)
 
 
 ```
@@ -390,7 +383,7 @@ Then, we can visualize the data after drift correction.
 ```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
 
 # Boxplot
-merged_bp <- plot_sample_boxplots(merged,
+combined_se_bp <- plot_sample_boxplots(combined_se,
                                   order_by = "Group",
                                   fill_by = "Group")
 # PCA

@@ -365,7 +365,8 @@ combined_fData <- cbind(
   rowData(qc_sample)
 )
 
-# Or if there are duplicate columns, select only the unique ones.
+
+# Or if there are duplicate columns, select only the unique ones
 all_rowdata <- list(
   as.data.frame(rowData(corrected_r)),
   as.data.frame(rowData(corrected_l)), 

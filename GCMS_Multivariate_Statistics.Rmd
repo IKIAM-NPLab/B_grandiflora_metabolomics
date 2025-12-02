@@ -325,9 +325,6 @@ Merge the result of drift correction.
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
 
-merged <- merge_notame_sets(corrected_r, corrected_b, corrected_l, merge = 'samples')
-
-
 # Verify and sort the rownames
 if (!identical(rownames(corrected_r), rownames(corrected_l)) || 
     !identical(rownames(corrected_r), rownames(corrected_b))) {
@@ -343,8 +340,6 @@ if (!identical(rownames(corrected_r), rownames(corrected_l)) ||
   corrected_b <- corrected_b[common_features, ]
 }
 
-# Merge
-result <- merge_notame_sets(corrected_r, corrected_l, corrected_b, merge = 'samples')
 # Manually
 # Combine assays
 combined_assay <- cbind(
@@ -352,28 +347,58 @@ combined_assay <- cbind(
   assay(corrected_l), 
   assay(corrected_b),
   assay(qc_sample)
-)
+  )
 
-# Combine colData
-combined_colData <- rbind(
+# Combine pData
+combined_pData <- rbind(
   colData(corrected_r),
   colData(corrected_l),
   colData(corrected_b),
   colData(qc_sample)
-)
-# Combine rowData
-combined_rowData <- cbind(
+  )
+
+# Combine fData while keeping all columns unique
+combined_fData <- cbind(
   rowData(corrected_r),
   rowData(corrected_l),
-  rowData(corrected_b)
+  rowData(corrected_b),
+  rowData(qc_sample)
 )
-  
+
+# Or if there are duplicate columns, select only the unique ones.
+all_rowdata <- list(
+  as.data.frame(rowData(corrected_r)),
+  as.data.frame(rowData(corrected_l)), 
+  as.data.frame(rowData(corrected_b)),
+  as.data.frame(rowData(qc_sample))
+)
+
+
+test_r <- data.frame(rowData(corrected_r))
+
+# Find unique column names
+unique_columns <- unique(unlist(lapply(all_rowdata, names)))
+
+# Create combined rowData
+combined_fData <- DataFrame(
+  lapply(unique_columns, function(col) {
+    # Search for the column in each dataset, use the first one that has it.
+    for(i in 1:4) {
+      if(col %in% names(all_rowdata[[i]])) {
+        return(all_rowdata[[i]][[col]])
+      }
+    }
+    return(rep(NA, nrow(corrected_r)))  # If it does not exist in either, fill with NA.
+  })
+)
+names(combined_fData) <- unique_columns
+
 # Create new SummarizedExperiment
-combined_se <- SummarizedExperiment(
+merged <- SummarizedExperiment(
   assays = list(assay = combined_assay),
-  colData = combined_colData,
-  rowData = combined_rowData
-)
+  colData = combined_pData,
+  rowData = combined_fData
+  )
 
 
 ```
@@ -383,7 +408,7 @@ Then, we can visualize the data after drift correction.
 ```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
 
 # Boxplot
-combined_se_bp <- plot_sample_boxplots(combined_se,
+merged_bp <- plot_sample_boxplots(merged,
                                   order_by = "Group",
                                   fill_by = "Group")
 # PCA
@@ -392,7 +417,8 @@ merged_pca <- plot_pca(merged,
                        shape = "Group",
                        color = "Group")
 # Plot
-merged_pca + merged_bp
+merged_pca
+merged_bp
 
 ```
 
@@ -401,25 +427,19 @@ Adding the "Low_quality" flag for features that were flagged as low quality in a
 ```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
 
 # Adding the "Low_quality" flag
-merged1 <- fData(merged) %>%
+merged1 <- data.frame(merged@elementMetadata@listData)
+merged1 <- merged1 %>%
   mutate(Flag = case_when(Flag_all == "Low_quality" &
                             Flag_root == "Low_quality" &
                             Flag_bark == "Low_quality" &
                             Flag_leave == "Low_quality" ~ "Low_quality"))
+merged@elementMetadata@listData <- merged1
+
 # Show the percentage of flagged features as "Low_quality"
 percentage <- scales::percent(sum(flag(merged) == "Low_quality",
-                                  na.rm = TRUE)/nrow(fData(merged)))
+                                  na.rm = TRUE)/nrow(merged1))
 log_text(paste0("\n", percentage, " of features flagged for low quality"))
 
-low_detect1 <-  data.frame(low_dr@elementMetadata@listData)
-low_detect1 <- low_detect1 %>% 
-   mutate(Flag = case_when(`Detection_rate_Group_Leaves.pool` < 0.6 &
-                            `Detection_rate_Group_Roots.pool` < 0.6 &
-                            `Detection_rate_Group_Stem.bark.pool` < 0.6 &
-                            `Detection_rate_QC` < 0.6 ~ "Low_qc_detection"))
-
-
-low_dr@elementMetadata@listData <- low_detect1
 ```
 
 Then, we can visualize the data after falg the low quality features.
@@ -436,13 +456,17 @@ best_pca <- plot_pca(merged,
                        shape = "Group",
                        color = "Group")
 # Plot
-best_pca + best_bp
+best_pca 
+best_bp
 
 ```
 
 The next step is feature clustering. This step helps us reduce the number of features of the same molecule that were split due to a 70 eV electron ionization (EI) environment.
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
+
+summary(rowData(merged)$mass)  
+summary(rowData(merged)$RT)    
 
 clustered <- cluster_features(merged, rt_window = 1/60, corr_thresh = 0.95,
                               d_thresh = 0.80)

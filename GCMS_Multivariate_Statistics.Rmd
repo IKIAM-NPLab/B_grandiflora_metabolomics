@@ -62,7 +62,7 @@ Next, the MZmine feature list table in “*notame*” format was loaded.
 ```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
 
 data <- read_from_excel(file = "Data/notame/GCMS_B_grandiflora_feat_list_2notame.xlsx",
-                        sheet = 4, corner_row = 5, corner_column = "F",
+                        sheet = 4, corner_row = 5, corner_column = "M",
                         rt_limits = c(3, 58), split_by = c("Column", "Ion Mode"))
 
 ```
@@ -311,6 +311,10 @@ Merge the result of drift correction.
 ```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
 
 merged <- merge_batches(corrected_r, corrected_b, corrected_l, qc_sample)
+
+merged_test <- merge_metabosets(corrected_r, corrected_b, corrected_l, qc_sample,
+                                merge = "samples")
+
 
 ```
 

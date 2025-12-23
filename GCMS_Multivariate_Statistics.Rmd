@@ -77,10 +77,7 @@ Next, the MZmine feature list table in “*notame*” format was loaded.
 data <- import_from_excel(file = "Data/notame/GCMS_B_grandiflora_feat_list_2notame.xlsx",
                         sheet = 5, corner_row = 6, corner_column = "P",
                         split_by = c("Column", "Ion Mode"))
-
-
-antioxidant_data <- fix_object(data)
-
+data <- fix_object(data)
 
 
 ```
@@ -650,7 +647,7 @@ Extracting and loading of identified metabolites' abundance, and data scaling by
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
 
-# Drop QC
+# Drop QC 
 hm_no_qc <- drop_qcs(pqn_noflag)
 # Scaling by autoscaling method
 hm_scl <- scale(t(assay(hm_no_qc)), center = TRUE, scale = TRUE)
@@ -769,7 +766,7 @@ gcms_hm
 
 # Antimicrobial activity correlation
 
-Correlation between feature abundance and antibacterial result (zone inhibition diameter) using the PCA and Pearson's correlation approaches.
+Correlation between feature abundance and antioxidant result (TAC) using the PCA and Pearson's correlation approaches.
 
 ## Using the PCA
 
@@ -777,23 +774,37 @@ Data and metadata preparation, merging the antimicrobial data with feature abund
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
 
-# Antioxidant activity data extraction
-antioxidant_data <- drop_qcs(antioxidant_data) 
+# Removal of qc group from the dataset
+antioxidant_data <- drop_qcs(data) 
+# Removal of Leaves group from the dataset
+antioxidant_data <- antioxidant_data[, antioxidant_data$Group != "Leaves pool"]
+colData(antioxidant_data) <- droplevels(colData(antioxidant_data))
+# Removal of Stem bark group from the dataset
+antioxidant_data <- antioxidant_data[, antioxidant_data$Group != "Stem bark pool"]
+colData(antioxidant_data) <- droplevels(colData(antioxidant_data))
+# Removal of Roots group from the dataset
+antioxidant_data <- antioxidant_data[, antioxidant_data$Group != "Roots pool"]
+colData(antioxidant_data) <- droplevels(colData(antioxidant_data))
+# Extracting only the antioxidant activity result
+antioxidant_data <- antioxidant_data["Antiox_No_IM_80a3", , drop = FALSE] 
+# Transposing antioxidant activity data
 antioxidant_data <- t(assay(antioxidant_data))
+
 # Drop QCs of metabolomics data
 no_qc <- drop_qcs(pqn_noflag)
 # Extracting feature height table
 corr_peak <- t(assay(no_qc))
-# Merge the antimicrobial activity result with the feature list table
+corr_peak <- t(assay(pqn_noflag))
+# Merge the antioxidant activity result with the feature list table
 antioxidant_peak <- cbind(antioxidant_data, corr_peak)
 # Extracting phenotypic data of metabolomics data
-corr_pdata <- no_qc@phenoData@data
+corr_pdata <- no_qc@colData@listData
 
 ```
 
 ### Score PCA
 
-PCA scores calculation of the antimicrobial and feature abundance merge data.
+PCA scores calculation of the antioxidant and feature abundance merge data.
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
 
@@ -810,7 +821,8 @@ Plotting PCA score.
 corr_scores <- corr_pca$x %>%            # Get PC coordinates
   data.frame %>%                         # Convert to data frames
   mutate(Sample_ID = rownames(.)) %>%    # Create a new column with the sample names
-  left_join(corr_pdata)                  # Adding metadata
+  left_join(data.frame(corr_pdata))                  # Adding metadata
+
 # PCA plot
 corr_pca_plot <- ggplot(corr_scores,
                         aes(PC1, PC2, shape = Group, color = Group)) +
@@ -819,8 +831,8 @@ corr_pca_plot <- ggplot(corr_scores,
                               "#E76BF3")) +
   scale_shape_manual(values=c(16, 17, 3)) +
   geom_point(size = 3) +
-  guides(x=guide_axis(title = "PC1 (22.46 %)"),
-         y=guide_axis(title = "PC2 (18.82 %)")) +
+  guides(x=guide_axis(title = "PC1 (20.14 %)"),
+         y=guide_axis(title = "PC2 (14.12 %)")) +
   labs(shape = 'Group', color= 'Group') +
   theme_classic() +
   theme(legend.text = element_text(face="italic")) +
@@ -849,19 +861,19 @@ Creating an artificial table with feature names and a column with compound names
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE, results='hide', fig.width = 14, fig.height = 7}
 
-# Extracting the antimicrobial metadata
-antioxidant_table <- drop_qcs(modes$na_na)@featureData@data
+# Extracting the antioxidant metadata
+antioxidant_table <- drop_qcs(data)@elementMetadata@listData
 antioxidant_table$Flag  <- as.character(antioxidant_table$Flag)
-# Merge the antimicrobial metadata with the metabolite table
-corr_table <- merge(meta_table, bacteria_table, all = TRUE)
-# Creating a new small table of the annotated compounds and antimicrobial metadata
+# Merge the antioxidant metadata with the metabolite table
+corr_table <- merge(meta_table, antioxidant_table, all = TRUE)
+# Creating a new small table of the annotated compounds and antioxidant metadata
 corr_compouds <- left_join(corr_table, corr_loadings)
 # Plotting results
 corr_load_plot <- ggplot(corr_loadings, aes(PC1, PC2)) + 
   geom_point(alpha = 0.3, size = 2) +
   theme_classic() +
-  geom_point(data = corr_compouds, aes(shape = corr_table$IL,
-                                       color = corr_table$IL), size = 2.5) +
+  geom_point(data = corr_compouds, aes(shape = corr_table$Antiox,
+                                       color = corr_table$Antiox), size = 2.5) +
   labs(shape = 'Legend of features',
        color = 'Legend of features') +
   scale_color_manual(values = c("red",
@@ -870,7 +882,7 @@ corr_load_plot <- ggplot(corr_loadings, aes(PC1, PC2)) +
   scale_shape_manual(values = c(15, 17, 19)) +
   ggrepel::geom_label_repel(data = corr_compouds,
                             aes(label = corr_table$Metabolite,
-                                fontface = ifelse(corr_table$IL == "Antimicrobial activity",
+                                fontface = ifelse(corr_table$Antiox == "Antioxidant activity",
                                                   'italic', 'plain')),
                             box.padding = 0.37,
                             label.padding = 0.22,
@@ -893,18 +905,18 @@ corr_load_plot
 
 ## Using the Pearson correlation
 
-The Pearson correlation between antimicrobial activity and feature abundance was performed.
+The Pearson correlation between antioxidant activity and feature abundance was performed.
 
-### Normality of the antimicrobial data
+### Normality of the antioxidant data
 
-First, the antimicrobial data normality was evaluated using the Shapiro-Wilk test.
+First, the antioxidant data normality was evaluated using the Shapiro-Wilk test.
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
 
 # Loading the "readxl" package
 library(readxl)
-# Loading the antimicrobial activity data
-all_bacteria <- read_excel("Data/Antimicrobial_of_honey.xlsx", sheet = 1)
+# Loading the antioxidant activity data
+all_assay <- read_excel("Data/Antimicrobial_of_honey.xlsx", sheet = 1)
 # Deleting the group column to perform Shapiro-Wilk test in batch
 no_group <- all_bacteria[,-1]
 # Perform the Shapiro-Wilk test

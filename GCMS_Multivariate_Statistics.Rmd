@@ -79,7 +79,6 @@ data <- import_from_excel(file = "Data/notame/GCMS_B_grandiflora_feat_list_2nota
                         split_by = c("Column", "Ion Mode"))
 data <- fix_object(data)
 
-
 ```
 
 ## Preprocessing
@@ -320,6 +319,10 @@ Merge the result of drift correction.
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
 merged <- merge_notame_sets(corrected_b, corrected_l, corrected_r, qc_sample, merge = 'samples')
+
+merged_test <- merge_metabosets(corrected_r, corrected_b, corrected_l, qc_sample,
+                                merge = "samples")
+
 
 ```
 

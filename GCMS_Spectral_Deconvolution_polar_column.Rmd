@@ -1,0 +1,222 @@
+---
+title: "GC-MS metabolomics of B. grandiflora - Spectral deconvolution"
+author: "Jefferson Pastuna"
+date: "2025-03-25"
+output:
+  github_document:
+    toc: true
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+usethis::git_vaccinate()
+
+```
+
+### Introduction
+
+Write an Introduction.
+
+### Before to start
+
+Write a package description.
+
+### eRah package workflow
+
+How to star.
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+
+# eRah package installation
+#install.packages('erah')
+# eRah library call
+library(erah)
+
+```
+
+Folder files
+
+```{r echo=TRUE}
+
+# Delete all file that are not in folders
+unlink('Data/eRah_polar_column/*')
+# Data folder path
+createdt('Data/eRah_polar_column/')
+
+```
+
+New experiment.
+
+
+```{r echo=TRUE}
+
+# Loading (*.CDF) chromatograms
+instrumental <- read.csv('Data/eRah_metadata_polar_column/GCMS_inst_data_CDF.csv', sep = ";")
+# Loading metadata of the chromatograms (phenotype file)
+phenotype <- read.csv('Data/eRah_metadata_polar_column/GCMS_pheno_data.csv', sep = ";")
+# Merge of metadata information with chromatograms
+ex <- newExp(instrumental = instrumental,
+             phenotype = phenotype,
+             info = 'B. grandiflora metabolomics')
+
+```
+
+Compound deconvolution
+
+Parameter
+
+```{r echo=TRUE}
+
+# Deconvolution parameters for chromatogram analysis between 3.01 and 21.10 min
+dec.par.3to21 <- setDecPar(min.peak.width = 3,
+                           min.peak.height = 500,
+                           noise.threshold = 50,
+                           avoid.processing.mz = c(30:32),
+                           analysis.time = c(3.01, 21.10))
+# Deconvolution parameters for chromatogram analysis between 21.10 and 37.5 min
+dec.par.21to37 <- setDecPar(min.peak.width = 3,
+                           min.peak.height = 600,
+                           noise.threshold = 60,
+                           avoid.processing.mz = c(30:32),
+                           analysis.time = c(21.10, 37))
+# Deconvolution parameters for chromatogram analysis between 37.5 and 44.0 min
+dec.par.37to44 <- setDecPar(min.peak.width = 3,
+                           min.peak.height = 1000,
+                           noise.threshold = 100,
+                           avoid.processing.mz = c(30:32),
+                           analysis.time = c(37.5, 44.0))
+
+```
+
+parallel processing
+
+```{r echo=TRUE}
+
+plan(future::multisession,
+     workers = 5)
+
+```
+
+Deconvolution
+
+```{r echo=TRUE, warning=FALSE}
+
+# Chromatogram deconvolution between 3.01 and 21.10 min
+ex.3to21 <- deconvolveComp(ex,
+                           dec.par.3to21)
+# Chromatogram deconvolution between 21.0 and 37.5 min
+ex.21to37 <- deconvolveComp(ex,
+                            dec.par.21to37)
+# Chromatogram deconvolution between 37.5 and 44.0 min
+ex.37to44 <- deconvolveComp(ex,
+                            dec.par.37to44)
+
+```
+
+Alignment
+
+```{r echo=TRUE}
+
+# Alignment parameters
+ex.al.par <- setAlPar(min.spectra.cor = 0.85,
+                      max.time.dist = 3,
+                      mz.range = 50:500)
+# Alignment of 3.01-21.10 min dataset
+ex.3to21 <- alignComp(ex.3to21,
+                      alParameters = ex.al.par)
+# Alignment of 21.0-37.5 min dataset
+ex.21to37 <- alignComp(ex.21to37,
+                       alParameters = ex.al.par)
+# Alignment of 37.5-44.0 set
+ex.37to44 <- alignComp(ex.37to44,
+                       alParameters = ex.al.par)
+
+```
+
+Missing compound recovery
+
+
+```{r echo=TRUE}
+
+# Missing compound recovery for 3.01-21.10 min dataset
+ex.3to21 <- recMissComp(ex.3to21,
+                        min.samples = 2)
+# Missing compound recovery for 21.0-37.5 min dataset
+ex.21to37 <- recMissComp(ex.21to37,
+                         min.samples = 2)
+# Missing compound recovery for 37.5-44.0 min dataset
+ex.37to44 <- recMissComp(ex.37to44,
+                         min.samples = 2)
+
+```
+
+Exporting alignment feature list.
+
+```{r echo=TRUE}
+
+# Extracting alignment feature list 3.01-21.0 min
+feat_list.3to21 <- alignList(ex.3to21,
+                             by.area = FALSE)
+# Exporting alignment feature list
+write.csv(feat_list.3to21,
+          file = "Result/eRah_3to21min_Polar_Column/B_gradiflora_eRah_Feat_list_3to21min_Polar_Column.csv")
+# Extracting alignment feature list 21.0-37.5 min
+feat_list.21to37 <- alignList(ex.21to37,
+                              by.area = FALSE)
+# Exporting alignment feature list
+write.csv(feat_list.21to37,
+          file = "Result/eRah_21to37min_Polar_Column/B_gradiflora_eRah_Feat_list_21to37_Polar_Column.csv")
+# Extracting alignment feature list 37.5-44.0 min
+feat_list.37to44 <- alignList(ex.37to44,
+                              by.area = FALSE)
+# Exporting alignment feature list
+write.csv(feat_list.37to44,
+          file = "Result/eRah_37to44min_Polar_Column/B_gradiflora_eRah_Feat_list_37to44_Polar_Column.csv")
+
+```
+
+# Identification
+
+Metabolite identification was by comparing all the spectra found against a reference database. The eRah default database was used to metabolite identification. Metabolite identification was improve by exporting all the spectra found (.msp) in eRah to NIST MS Search 2.4 software.
+
+```{r echo=TRUE, warning=FALSE}
+
+# Identification of 3.01-21.10 min dataset
+peak_iden.3to21 <- identifyComp(ex.3to21,
+                          id.database = mslib,
+                          mz.range = NULL,
+                          n.putative = 1)
+# Identification of 21.0-37.5 min dataset
+peak_iden.21to37 <- identifyComp(ex.21to37,
+                          id.database = mslib,
+                          mz.range = NULL,
+                          n.putative = 1)
+# Identification of 37.5-44.0 min dataset
+peak_iden.37to44 <- identifyComp(ex.37to44,
+                          id.database = mslib,
+                          mz.range = NULL,
+                          n.putative = 1)
+
+```
+
+Exporting spectra to NIST MS Search software identification with NIST-20 library.
+
+```{r echo=TRUE}
+
+# 3.01-21.0 min dataset
+export2MSP(peak_iden.3to21,
+           store.path = "Result/eRah_3to21min_Polar_Column",
+           alg.version = 2)
+# 43.0-53.5 min dataset
+export2MSP(peak_iden.21to37,
+           store.path = "Result/eRah_21to37min_Polar_Column",
+           alg.version = 2)
+# 53.5-58.0 min dataset
+export2MSP(peak_iden.37to44,
+           store.path = "Result/eRah_37to44min_Polar_Column",
+           alg.version = 2)
+
+```
+

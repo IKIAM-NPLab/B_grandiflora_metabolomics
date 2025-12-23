@@ -1157,3 +1157,2776 @@ INFO [2025-07-03 18:44:19] Found 45879 connections in Rtx-5_EI
 INFO [2025-07-03 18:44:19] Found 45879 connections
 INFO [2025-07-03 18:44:38] Found 1331 clusters of 2 or more features, clustering finished at 2025-07-03 18:44:38.116595
 INFO [2025-07-03 18:44:41] Clusters compressed, left with 4790 features
+INFO [2025-11-10 22:12:03] Starting logging
+INFO [2025-11-10 22:22:03] Starting logging
+INFO [2025-11-11 15:21:19] Starting logging
+INFO [2025-11-11 15:31:04] Corner detected correctly at row 5, column M
+INFO [2025-11-11 15:31:04] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-11 15:31:04] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-11 15:31:04] Naming the last column of sample information "Datafile"
+INFO [2025-11-11 15:31:04] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-11 15:31:04] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-11 15:31:04] QC column generated from rows containing 'QC'
+INFO [2025-11-11 15:31:04] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-11 15:31:04] Pheno data was cleaned
+INFO [2025-11-11 15:31:05] Initializing 'Flag' column with unflagged features
+INFO [2025-11-11 15:31:05] Creating Split column from Column, Ion Mode
+INFO [2025-11-11 15:31:05] Feature_ID column not found, creating feature IDs
+INFO [2025-11-11 15:31:05] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 15:31:05] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 15:31:05] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-11 15:31:05] Feature data was cleaned
+INFO [2025-11-11 15:31:05] 
+Checking sample information
+INFO [2025-11-11 15:31:05] Checking 'Injection_order' column in feature data
+INFO [2025-11-11 15:31:05] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-11 15:31:05] Checking 'QC' column in feature data
+INFO [2025-11-11 15:31:05] Checking that feature abundances only contain numeric values
+INFO [2025-11-11 15:31:05] 
+Checking feature information
+INFO [2025-11-11 15:31:05] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-11 15:31:05] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-11 15:31:05] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 15:31:05] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 15:31:05] Checking that feature data includes a 'Split' column
+INFO [2025-11-11 15:31:05] Checking that feature data includes a 'Flag' column
+INFO [2025-11-11 16:07:48] Corner detected correctly at row 5, column M
+INFO [2025-11-11 16:07:48] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-11 16:07:48] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-11 16:07:48] Naming the last column of sample information "Datafile"
+INFO [2025-11-11 16:07:48] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-11 16:07:48] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-11 16:07:48] QC column generated from rows containing 'QC'
+INFO [2025-11-11 16:07:48] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-11 16:07:48] Pheno data was cleaned
+INFO [2025-11-11 16:07:49] Initializing 'Flag' column with unflagged features
+INFO [2025-11-11 16:07:49] Creating Split column from Column, Ion Mode
+INFO [2025-11-11 16:07:49] Feature_ID column not found, creating feature IDs
+INFO [2025-11-11 16:07:49] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:07:49] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:07:49] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-11 16:07:49] Feature data was cleaned
+INFO [2025-11-11 16:07:49] 
+Checking sample information
+INFO [2025-11-11 16:07:49] Checking 'Injection_order' column in feature data
+INFO [2025-11-11 16:07:49] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-11 16:07:49] Checking 'QC' column in feature data
+INFO [2025-11-11 16:07:49] Checking that feature abundances only contain numeric values
+INFO [2025-11-11 16:07:49] 
+Checking feature information
+INFO [2025-11-11 16:07:49] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-11 16:07:49] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-11 16:07:49] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:07:49] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:07:49] Checking that feature data includes a 'Split' column
+INFO [2025-11-11 16:07:49] Checking that feature data includes a 'Flag' column
+INFO [2025-11-11 16:27:33] Corner detected correctly at row 5, column M
+INFO [2025-11-11 16:27:33] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-11 16:27:33] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-11 16:27:33] Naming the last column of sample information "Datafile"
+INFO [2025-11-11 16:27:33] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-11 16:27:33] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-11 16:27:33] QC column generated from rows containing 'QC'
+INFO [2025-11-11 16:27:33] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-11 16:27:33] Pheno data was cleaned
+INFO [2025-11-11 16:27:34] Initializing 'Flag' column with unflagged features
+INFO [2025-11-11 16:27:34] Creating Split column from Column, Ion Mode
+INFO [2025-11-11 16:27:34] Feature_ID column not found, creating feature IDs
+INFO [2025-11-11 16:27:34] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:27:34] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:27:34] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-11 16:27:34] Feature data was cleaned
+INFO [2025-11-11 16:27:34] 
+Checking sample information
+INFO [2025-11-11 16:27:34] Checking 'Injection_order' column in feature data
+INFO [2025-11-11 16:27:34] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-11 16:27:34] Checking 'QC' column in feature data
+INFO [2025-11-11 16:27:34] Checking that feature abundances only contain numeric values
+INFO [2025-11-11 16:27:34] 
+Checking feature information
+INFO [2025-11-11 16:27:34] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-11 16:27:35] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-11 16:27:35] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:27:35] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:27:35] Checking that feature data includes a 'Split' column
+INFO [2025-11-11 16:27:35] Checking that feature data includes a 'Flag' column
+INFO [2025-11-11 16:32:01] Corner detected correctly at row 5, column M
+INFO [2025-11-11 16:32:01] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-11 16:32:01] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-11 16:32:01] Naming the last column of sample information "Datafile"
+INFO [2025-11-11 16:32:01] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-11 16:32:01] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-11 16:32:01] QC column generated from rows containing 'QC'
+INFO [2025-11-11 16:32:01] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-11 16:32:01] Pheno data was cleaned
+INFO [2025-11-11 16:32:02] Initializing 'Flag' column with unflagged features
+INFO [2025-11-11 16:32:02] Creating Split column from Column, Ion Mode
+INFO [2025-11-11 16:32:02] Feature_ID column not found, creating feature IDs
+INFO [2025-11-11 16:32:02] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:32:02] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:32:02] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-11 16:32:02] Feature data was cleaned
+INFO [2025-11-11 16:32:02] 
+Checking sample information
+INFO [2025-11-11 16:32:02] Checking 'Injection_order' column in feature data
+INFO [2025-11-11 16:32:02] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-11 16:32:02] Checking 'QC' column in feature data
+INFO [2025-11-11 16:32:02] Checking that feature abundances only contain numeric values
+INFO [2025-11-11 16:32:02] 
+Checking feature information
+INFO [2025-11-11 16:32:02] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-11 16:32:02] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-11 16:32:02] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:32:02] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:32:02] Checking that feature data includes a 'Split' column
+INFO [2025-11-11 16:32:02] Checking that feature data includes a 'Flag' column
+INFO [2025-11-11 16:36:43] Corner detected correctly at row 5, column M
+INFO [2025-11-11 16:36:43] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-11 16:36:43] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-11 16:36:43] Naming the last column of sample information "Datafile"
+INFO [2025-11-11 16:36:43] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-11 16:36:43] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-11 16:36:43] QC column generated from rows containing 'QC'
+INFO [2025-11-11 16:36:43] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-11 16:36:43] Pheno data was cleaned
+INFO [2025-11-11 16:36:43] Initializing 'Flag' column with unflagged features
+INFO [2025-11-11 16:36:43] Creating Split column from Column, Ion Mode
+INFO [2025-11-11 16:36:43] Feature_ID column not found, creating feature IDs
+INFO [2025-11-11 16:36:43] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:36:43] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:36:43] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-11 16:36:43] Feature data was cleaned
+INFO [2025-11-11 16:36:43] 
+Checking sample information
+INFO [2025-11-11 16:36:43] Checking 'Injection_order' column in feature data
+INFO [2025-11-11 16:36:43] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-11 16:36:43] Checking 'QC' column in feature data
+INFO [2025-11-11 16:36:43] Checking that feature abundances only contain numeric values
+INFO [2025-11-11 16:36:44] 
+Checking feature information
+INFO [2025-11-11 16:36:44] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-11 16:36:44] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-11 16:36:44] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:36:44] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:36:44] Checking that feature data includes a 'Split' column
+INFO [2025-11-11 16:36:44] Checking that feature data includes a 'Flag' column
+INFO [2025-11-11 16:38:50] Pheno data was cleaned
+INFO [2025-11-11 16:38:51] Feature data was cleaned
+INFO [2025-11-11 16:39:17] Corner detected correctly at row 5, column M
+INFO [2025-11-11 16:39:17] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-11 16:39:17] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-11 16:39:17] Naming the last column of sample information "Datafile"
+INFO [2025-11-11 16:39:17] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-11 16:39:17] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-11 16:39:17] QC column generated from rows containing 'QC'
+INFO [2025-11-11 16:39:17] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-11 16:39:17] Pheno data was cleaned
+INFO [2025-11-11 16:39:17] Initializing 'Flag' column with unflagged features
+INFO [2025-11-11 16:39:17] Creating Split column from Column, Ion Mode
+INFO [2025-11-11 16:39:17] Feature_ID column not found, creating feature IDs
+INFO [2025-11-11 16:39:17] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:39:17] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:39:17] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-11 16:39:17] Feature data was cleaned
+INFO [2025-11-11 16:39:17] 
+Checking sample information
+INFO [2025-11-11 16:39:17] Checking 'Injection_order' column in feature data
+INFO [2025-11-11 16:39:17] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-11 16:39:17] Checking 'QC' column in feature data
+INFO [2025-11-11 16:39:17] Checking that feature abundances only contain numeric values
+INFO [2025-11-11 16:39:17] 
+Checking feature information
+INFO [2025-11-11 16:39:17] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-11 16:39:18] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-11 16:39:18] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:39:18] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:39:18] Checking that feature data includes a 'Split' column
+INFO [2025-11-11 16:39:18] Checking that feature data includes a 'Flag' column
+INFO [2025-11-11 16:42:01] Corner detected correctly at row 5, column M
+INFO [2025-11-11 16:42:01] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-11 16:42:01] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-11 16:42:01] Naming the last column of sample information "Datafile"
+INFO [2025-11-11 16:42:01] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-11 16:42:01] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-11 16:42:01] QC column generated from rows containing 'QC'
+INFO [2025-11-11 16:42:01] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-11 16:42:01] Pheno data was cleaned
+INFO [2025-11-11 16:42:01] Initializing 'Flag' column with unflagged features
+INFO [2025-11-11 16:42:01] Creating Split column from Column, Ion Mode
+INFO [2025-11-11 16:42:01] Feature_ID column not found, creating feature IDs
+INFO [2025-11-11 16:42:01] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:42:01] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:42:01] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-11 16:42:01] Feature data was cleaned
+INFO [2025-11-11 16:42:01] 
+Checking sample information
+INFO [2025-11-11 16:42:01] Checking 'Injection_order' column in feature data
+INFO [2025-11-11 16:42:01] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-11 16:42:01] Checking 'QC' column in feature data
+INFO [2025-11-11 16:42:01] Checking that feature abundances only contain numeric values
+INFO [2025-11-11 16:42:02] 
+Checking feature information
+INFO [2025-11-11 16:42:02] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-11 16:42:02] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-11 16:42:02] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:42:02] Identified m/z column mass and retention time column RT
+INFO [2025-11-11 16:42:02] Checking that feature data includes a 'Split' column
+INFO [2025-11-11 16:42:02] Checking that feature data includes a 'Flag' column
+INFO [2025-11-19 15:03:29] Starting logging
+INFO [2025-11-19 15:03:39] Starting logging
+INFO [2025-11-19 15:05:39] Starting logging
+INFO [2025-11-19 15:05:49] Corner detected correctly at row 5, column M
+INFO [2025-11-19 15:05:49] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-19 15:05:49] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-19 15:05:49] Naming the last column of sample information "Datafile"
+INFO [2025-11-19 15:05:49] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-19 15:05:49] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-19 15:05:49] QC column generated from rows containing 'QC'
+INFO [2025-11-19 15:05:49] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-19 15:05:49] Pheno data was cleaned
+INFO [2025-11-19 15:05:51] Initializing 'Flag' column with unflagged features
+INFO [2025-11-19 15:05:51] Creating Split column from Column, Ion Mode
+INFO [2025-11-19 15:05:51] Feature_ID column not found, creating feature IDs
+INFO [2025-11-19 15:05:51] Identified m/z column mass and retention time column RT
+INFO [2025-11-19 15:05:51] Identified m/z column mass and retention time column RT
+INFO [2025-11-19 15:05:51] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-19 15:05:51] Feature data was cleaned
+INFO [2025-11-19 15:05:51] 
+Checking sample information
+INFO [2025-11-19 15:05:51] Checking 'Injection_order' column in feature data
+INFO [2025-11-19 15:05:51] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-19 15:05:51] Checking 'QC' column in feature data
+INFO [2025-11-19 15:05:51] Checking that feature abundances only contain numeric values
+INFO [2025-11-19 15:05:51] 
+Checking feature information
+INFO [2025-11-19 15:05:51] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-19 15:05:51] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-19 15:05:51] Identified m/z column mass and retention time column RT
+INFO [2025-11-19 15:05:51] Identified m/z column mass and retention time column RT
+INFO [2025-11-19 15:05:51] Checking that feature data includes a 'Split' column
+INFO [2025-11-19 15:05:51] Checking that feature data includes a 'Flag' column
+INFO [2025-11-19 15:52:11] 
+0% of features flagged for low detection rate
+INFO [2025-11-20 20:53:12] Starting logging
+INFO [2025-11-20 20:53:45] Corner detected correctly at row 5, column M
+INFO [2025-11-20 20:53:45] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-20 20:53:45] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-20 20:53:45] Naming the last column of sample information "Datafile"
+INFO [2025-11-20 20:53:45] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-20 20:53:45] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-20 20:53:45] QC column generated from rows containing 'QC'
+INFO [2025-11-20 20:53:45] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-20 20:53:45] Pheno data was cleaned
+INFO [2025-11-20 20:53:46] Initializing 'Flag' column with unflagged features
+INFO [2025-11-20 20:53:46] Creating Split column from Column, Ion Mode
+INFO [2025-11-20 20:53:46] Feature_ID column not found, creating feature IDs
+INFO [2025-11-20 20:53:46] Identified m/z column mass and retention time column RT
+INFO [2025-11-20 20:53:46] Identified m/z column mass and retention time column RT
+INFO [2025-11-20 20:53:46] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-20 20:53:46] Feature data was cleaned
+INFO [2025-11-20 20:53:46] 
+Checking sample information
+INFO [2025-11-20 20:53:46] Checking 'Injection_order' column in feature data
+INFO [2025-11-20 20:53:46] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-20 20:53:46] Checking 'QC' column in feature data
+INFO [2025-11-20 20:53:46] Checking that feature abundances only contain numeric values
+INFO [2025-11-20 20:53:46] 
+Checking feature information
+INFO [2025-11-20 20:53:46] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-20 20:53:46] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-20 20:53:46] Identified m/z column mass and retention time column RT
+INFO [2025-11-20 20:53:46] Identified m/z column mass and retention time column RT
+INFO [2025-11-20 20:53:46] Checking that feature data includes a 'Split' column
+INFO [2025-11-20 20:53:46] Checking that feature data includes a 'Flag' column
+INFO [2025-11-21 11:17:37] Starting logging
+INFO [2025-11-21 11:17:43] Corner detected correctly at row 5, column M
+INFO [2025-11-21 11:17:43] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-21 11:17:43] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-21 11:17:43] Naming the last column of sample information "Datafile"
+INFO [2025-11-21 11:17:43] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-21 11:17:43] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-21 11:17:43] QC column generated from rows containing 'QC'
+INFO [2025-11-21 11:17:43] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-21 11:17:44] Pheno data was cleaned
+INFO [2025-11-21 11:17:44] Initializing 'Flag' column with unflagged features
+INFO [2025-11-21 11:17:44] Creating Split column from Column, Ion Mode
+INFO [2025-11-21 11:17:44] Feature_ID column not found, creating feature IDs
+INFO [2025-11-21 11:17:44] Identified m/z column mass and retention time column RT
+INFO [2025-11-21 11:17:44] Identified m/z column mass and retention time column RT
+INFO [2025-11-21 11:17:44] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-21 11:17:44] Feature data was cleaned
+INFO [2025-11-21 11:17:44] 
+Checking sample information
+INFO [2025-11-21 11:17:44] Checking 'Injection_order' column in feature data
+INFO [2025-11-21 11:17:44] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-21 11:17:44] Checking 'QC' column in feature data
+INFO [2025-11-21 11:17:44] Checking that feature abundances only contain numeric values
+INFO [2025-11-21 11:17:45] 
+Checking feature information
+INFO [2025-11-21 11:17:45] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-21 11:17:45] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-21 11:17:45] Identified m/z column mass and retention time column RT
+INFO [2025-11-21 11:17:45] Identified m/z column mass and retention time column RT
+INFO [2025-11-21 11:17:45] Checking that feature data includes a 'Split' column
+INFO [2025-11-21 11:17:45] Checking that feature data includes a 'Flag' column
+INFO [2025-11-21 14:24:27] 
+0% of features flagged for low detection rate
+INFO [2025-11-21 14:35:08] 
+0% of features flagged for low detection rate
+INFO [2025-11-21 15:05:22] 
+0% of features flagged for low detection rate
+INFO [2025-11-21 15:06:32] 
+0% of features flagged for low detection rate
+INFO [2025-11-21 15:22:26] 
+59% of features flagged for low detection rate
+INFO [2025-11-21 15:24:32] 
+8% of features flagged for low detection rate
+INFO [2025-11-21 16:04:31] 
+0% of features flagged for Low QC detection rate
+INFO [2025-11-21 16:05:05] Starting drift correction
+INFO [2025-11-21 16:06:09] Recomputing quality metrics for drift corrected data
+INFO [2025-11-21 16:06:13] Drift correction performed
+INFO [2025-11-21 16:06:13] Inspecting drift correction results
+INFO [2025-11-21 16:06:13] Original quality metrics missing, recomputing
+INFO [2025-11-21 16:06:15] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-11-21 16:09:52] 
+17% of features flagged for low quality
+INFO [2025-11-22 14:39:55] Starting logging
+INFO [2025-11-22 14:40:01] Corner detected correctly at row 5, column M
+INFO [2025-11-22 14:40:01] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-22 14:40:01] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-22 14:40:01] Naming the last column of sample information "Datafile"
+INFO [2025-11-22 14:40:01] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-22 14:40:01] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-22 14:40:01] QC column generated from rows containing 'QC'
+INFO [2025-11-22 14:40:01] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-22 14:40:01] Pheno data was cleaned
+INFO [2025-11-22 14:40:02] Initializing 'Flag' column with unflagged features
+INFO [2025-11-22 14:40:02] Creating Split column from Column, Ion Mode
+INFO [2025-11-22 14:40:02] Feature_ID column not found, creating feature IDs
+INFO [2025-11-22 14:40:02] Identified m/z column mass and retention time column RT
+INFO [2025-11-22 14:40:02] Identified m/z column mass and retention time column RT
+INFO [2025-11-22 14:40:02] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-22 14:40:02] Feature data was cleaned
+INFO [2025-11-22 14:40:02] 
+Checking sample information
+INFO [2025-11-22 14:40:02] Checking 'Injection_order' column in feature data
+INFO [2025-11-22 14:40:02] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-22 14:40:02] Checking 'QC' column in feature data
+INFO [2025-11-22 14:40:02] Checking that feature abundances only contain numeric values
+INFO [2025-11-22 14:40:02] 
+Checking feature information
+INFO [2025-11-22 14:40:02] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-22 14:40:02] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-22 14:40:02] Identified m/z column mass and retention time column RT
+INFO [2025-11-22 14:40:02] Identified m/z column mass and retention time column RT
+INFO [2025-11-22 14:40:02] Checking that feature data includes a 'Split' column
+INFO [2025-11-22 14:40:02] Checking that feature data includes a 'Flag' column
+INFO [2025-11-22 14:40:28] 
+8% of features flagged for low detection rate
+INFO [2025-11-22 14:40:28] 
+0% of features flagged for Low QC detection rate
+INFO [2025-11-22 14:40:44] Starting drift correction
+INFO [2025-11-22 14:41:23] Recomputing quality metrics for drift corrected data
+INFO [2025-11-22 14:41:26] Drift correction performed
+INFO [2025-11-22 14:41:26] Inspecting drift correction results
+INFO [2025-11-22 14:41:26] Original quality metrics missing, recomputing
+INFO [2025-11-22 14:41:27] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-11-22 14:41:28] 
+17% of features flagged for low quality
+INFO [2025-11-22 15:49:20] Starting drift correction
+INFO [2025-11-22 15:49:28] Starting drift correction
+INFO [2025-11-22 15:50:21] Recomputing quality metrics for drift corrected data
+INFO [2025-11-22 15:50:25] Drift correction performed
+INFO [2025-11-22 15:50:25] Inspecting drift correction results
+INFO [2025-11-22 15:50:25] Original quality metrics missing, recomputing
+INFO [2025-11-22 15:50:28] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-11-22 15:50:28] 
+17% of features flagged for low quality
+INFO [2025-11-24 14:09:27] Starting logging
+INFO [2025-11-24 14:09:31] Corner detected correctly at row 5, column M
+INFO [2025-11-24 14:09:31] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-24 14:09:31] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-24 14:09:31] Naming the last column of sample information "Datafile"
+INFO [2025-11-24 14:09:31] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-24 14:09:31] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-24 14:09:31] QC column generated from rows containing 'QC'
+INFO [2025-11-24 14:09:31] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-24 14:09:31] Pheno data was cleaned
+INFO [2025-11-24 14:09:32] Initializing 'Flag' column with unflagged features
+INFO [2025-11-24 14:09:32] Creating Split column from Column, Ion Mode
+INFO [2025-11-24 14:09:32] Feature_ID column not found, creating feature IDs
+INFO [2025-11-24 14:09:32] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 14:09:32] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 14:09:32] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-24 14:09:32] Feature data was cleaned
+INFO [2025-11-24 14:09:32] 
+Checking sample information
+INFO [2025-11-24 14:09:32] Checking 'Injection_order' column in feature data
+INFO [2025-11-24 14:09:32] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-24 14:09:32] Checking 'QC' column in feature data
+INFO [2025-11-24 14:09:32] Checking that feature abundances only contain numeric values
+INFO [2025-11-24 14:09:33] 
+Checking feature information
+INFO [2025-11-24 14:09:33] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-24 14:09:33] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-24 14:09:33] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 14:09:33] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 14:09:33] Checking that feature data includes a 'Split' column
+INFO [2025-11-24 14:09:33] Checking that feature data includes a 'Flag' column
+INFO [2025-11-24 14:09:52] 
+8% of features flagged for low detection rate
+INFO [2025-11-24 14:09:53] 
+0% of features flagged for Low QC detection rate
+INFO [2025-11-24 14:09:57] Starting drift correction
+INFO [2025-11-24 14:10:41] Recomputing quality metrics for drift corrected data
+INFO [2025-11-24 14:10:43] Drift correction performed
+INFO [2025-11-24 14:10:43] Inspecting drift correction results
+INFO [2025-11-24 14:10:43] Original quality metrics missing, recomputing
+INFO [2025-11-24 14:10:45] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-11-24 14:10:45] 
+17% of features flagged for low quality
+INFO [2025-11-24 14:30:56] Starting logging
+INFO [2025-11-24 14:31:00] Corner detected correctly at row 5, column M
+INFO [2025-11-24 14:31:00] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-24 14:31:00] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-24 14:31:00] Naming the last column of sample information "Datafile"
+INFO [2025-11-24 14:31:00] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-24 14:31:00] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-24 14:31:00] QC column generated from rows containing 'QC'
+INFO [2025-11-24 14:31:00] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-24 14:31:00] Pheno data was cleaned
+INFO [2025-11-24 14:31:00] Initializing 'Flag' column with unflagged features
+INFO [2025-11-24 14:31:00] Creating Split column from Column, Ion Mode
+INFO [2025-11-24 14:31:00] Feature_ID column not found, creating feature IDs
+INFO [2025-11-24 14:31:00] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 14:31:00] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 14:31:00] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-24 14:31:01] Feature data was cleaned
+INFO [2025-11-24 14:31:01] 
+Checking sample information
+INFO [2025-11-24 14:31:01] Checking 'Injection_order' column in feature data
+INFO [2025-11-24 14:31:01] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-24 14:31:01] Checking 'QC' column in feature data
+INFO [2025-11-24 14:31:01] Checking that feature abundances only contain numeric values
+INFO [2025-11-24 14:31:01] 
+Checking feature information
+INFO [2025-11-24 14:31:01] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-24 14:31:01] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-24 14:31:01] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 14:31:01] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 14:31:01] Checking that feature data includes a 'Split' column
+INFO [2025-11-24 14:31:01] Checking that feature data includes a 'Flag' column
+INFO [2025-11-24 14:32:35] 
+8% of features flagged for low detection rate
+INFO [2025-11-24 14:32:35] 
+0% of features flagged for Low QC detection rate
+INFO [2025-11-24 14:32:41] Starting drift correction
+INFO [2025-11-24 14:33:21] Recomputing quality metrics for drift corrected data
+INFO [2025-11-24 14:33:25] Drift correction performed
+INFO [2025-11-24 14:33:25] Inspecting drift correction results
+INFO [2025-11-24 14:33:25] Original quality metrics missing, recomputing
+INFO [2025-11-24 14:33:27] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-11-24 14:33:28] 
+17% of features flagged for low quality
+INFO [2025-11-24 15:22:57] 
+0% of features flagged for low detection rate
+INFO [2025-11-24 15:23:40] Starting logging
+INFO [2025-11-24 15:23:44] Corner detected correctly at row 5, column M
+INFO [2025-11-24 15:23:44] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-24 15:23:44] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-24 15:23:44] Naming the last column of sample information "Datafile"
+INFO [2025-11-24 15:23:44] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-24 15:23:44] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-24 15:23:44] QC column generated from rows containing 'QC'
+INFO [2025-11-24 15:23:44] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-24 15:23:44] Pheno data was cleaned
+INFO [2025-11-24 15:23:44] Initializing 'Flag' column with unflagged features
+INFO [2025-11-24 15:23:44] Creating Split column from Column, Ion Mode
+INFO [2025-11-24 15:23:44] Feature_ID column not found, creating feature IDs
+INFO [2025-11-24 15:23:44] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 15:23:44] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 15:23:44] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-24 15:23:44] Feature data was cleaned
+INFO [2025-11-24 15:23:44] 
+Checking sample information
+INFO [2025-11-24 15:23:44] Checking 'Injection_order' column in feature data
+INFO [2025-11-24 15:23:44] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-24 15:23:44] Checking 'QC' column in feature data
+INFO [2025-11-24 15:23:44] Checking that feature abundances only contain numeric values
+INFO [2025-11-24 15:23:45] 
+Checking feature information
+INFO [2025-11-24 15:23:45] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-24 15:23:45] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-24 15:23:45] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 15:23:45] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 15:23:45] Checking that feature data includes a 'Split' column
+INFO [2025-11-24 15:23:45] Checking that feature data includes a 'Flag' column
+INFO [2025-11-24 15:24:06] 
+0% of features flagged for low detection rate
+INFO [2025-11-24 15:24:26] 
+0% of features flagged for low detection rate
+INFO [2025-11-24 15:25:17] 
+0% of features flagged for low detection rate
+INFO [2025-11-24 15:25:51] Corner detected correctly at row 5, column M
+INFO [2025-11-24 15:25:51] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-24 15:25:51] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-24 15:25:51] Naming the last column of sample information "Datafile"
+INFO [2025-11-24 15:25:51] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-24 15:25:51] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-24 15:25:51] QC column generated from rows containing 'QC'
+INFO [2025-11-24 15:25:51] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-24 15:25:51] Pheno data was cleaned
+INFO [2025-11-24 15:25:51] Initializing 'Flag' column with unflagged features
+INFO [2025-11-24 15:25:51] Creating Split column from Column, Ion Mode
+INFO [2025-11-24 15:25:51] Feature_ID column not found, creating feature IDs
+INFO [2025-11-24 15:25:51] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 15:25:51] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 15:25:51] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-24 15:25:52] Feature data was cleaned
+INFO [2025-11-24 15:25:52] 
+Checking sample information
+INFO [2025-11-24 15:25:52] Checking 'Injection_order' column in feature data
+INFO [2025-11-24 15:25:52] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-24 15:25:52] Checking 'QC' column in feature data
+INFO [2025-11-24 15:25:52] Checking that feature abundances only contain numeric values
+INFO [2025-11-24 15:25:52] 
+Checking feature information
+INFO [2025-11-24 15:25:52] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-24 15:25:52] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-24 15:25:52] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 15:25:52] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 15:25:52] Checking that feature data includes a 'Split' column
+INFO [2025-11-24 15:25:52] Checking that feature data includes a 'Flag' column
+INFO [2025-11-24 15:26:10] 
+0% of features flagged for low detection rate
+INFO [2025-11-24 15:26:37] Corner detected correctly at row 5, column M
+INFO [2025-11-24 15:26:37] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-24 15:26:37] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-24 15:26:37] Naming the last column of sample information "Datafile"
+INFO [2025-11-24 15:26:37] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-24 15:26:37] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-24 15:26:37] QC column generated from rows containing 'QC'
+INFO [2025-11-24 15:26:37] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-24 15:26:37] Pheno data was cleaned
+INFO [2025-11-24 15:26:37] Initializing 'Flag' column with unflagged features
+INFO [2025-11-24 15:26:37] Creating Split column from Column, Ion Mode
+INFO [2025-11-24 15:26:37] Feature_ID column not found, creating feature IDs
+INFO [2025-11-24 15:26:37] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 15:26:37] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 15:26:37] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-24 15:26:37] Feature data was cleaned
+INFO [2025-11-24 15:26:37] 
+Checking sample information
+INFO [2025-11-24 15:26:37] Checking 'Injection_order' column in feature data
+INFO [2025-11-24 15:26:37] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-24 15:26:37] Checking 'QC' column in feature data
+INFO [2025-11-24 15:26:37] Checking that feature abundances only contain numeric values
+INFO [2025-11-24 15:26:37] 
+Checking feature information
+INFO [2025-11-24 15:26:37] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-24 15:26:37] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-24 15:26:37] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 15:26:37] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 15:26:37] Checking that feature data includes a 'Split' column
+INFO [2025-11-24 15:26:37] Checking that feature data includes a 'Flag' column
+INFO [2025-11-24 15:27:46] 
+8% of features flagged for low detection rate
+INFO [2025-11-24 16:07:19] Corner detected correctly at row 5, column M
+INFO [2025-11-24 16:07:19] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-24 16:07:19] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-24 16:07:19] Naming the last column of sample information "Datafile"
+INFO [2025-11-24 16:07:19] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-24 16:07:19] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-24 16:07:19] QC column generated from rows containing 'QC'
+INFO [2025-11-24 16:07:19] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-24 16:07:19] Pheno data was cleaned
+INFO [2025-11-24 16:07:19] Initializing 'Flag' column with unflagged features
+INFO [2025-11-24 16:07:19] Creating Split column from Column, Ion Mode
+INFO [2025-11-24 16:07:19] Feature_ID column not found, creating feature IDs
+INFO [2025-11-24 16:07:19] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 16:07:19] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 16:07:19] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-24 16:07:19] Feature data was cleaned
+INFO [2025-11-24 16:07:19] 
+Checking sample information
+INFO [2025-11-24 16:07:19] Checking 'Injection_order' column in feature data
+INFO [2025-11-24 16:07:19] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-24 16:07:19] Checking 'QC' column in feature data
+INFO [2025-11-24 16:07:19] Checking that feature abundances only contain numeric values
+INFO [2025-11-24 16:07:19] 
+Checking feature information
+INFO [2025-11-24 16:07:19] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-24 16:07:19] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-24 16:07:19] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 16:07:19] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 16:07:19] Checking that feature data includes a 'Split' column
+INFO [2025-11-24 16:07:19] Checking that feature data includes a 'Flag' column
+INFO [2025-11-24 16:07:33] 
+8% of features flagged for low detection rate
+INFO [2025-11-24 16:16:38] 
+48% of features flagged for low detection rate
+INFO [2025-11-24 16:18:01] 
+48% of features flagged for low detection rate
+INFO [2025-11-24 16:21:32] 
+48% of features flagged for low detection rate
+INFO [2025-11-24 16:29:59] 
+48% of features flagged for low detection rate
+INFO [2025-11-24 16:30:05] Starting drift correction
+INFO [2025-11-24 16:30:44] Recomputing quality metrics for drift corrected data
+INFO [2025-11-24 16:30:46] Drift correction performed
+INFO [2025-11-24 16:30:46] Inspecting drift correction results
+INFO [2025-11-24 16:30:46] Original quality metrics missing, recomputing
+INFO [2025-11-24 16:30:47] Drift correction results inspected: Drift_corrected: 100%
+INFO [2025-11-24 16:30:47] 
+3% of features flagged for low quality
+INFO [2025-11-24 16:40:30] Starting logging
+INFO [2025-11-24 16:40:34] Corner detected correctly at row 5, column M
+INFO [2025-11-24 16:40:34] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-24 16:40:34] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-24 16:40:34] Naming the last column of sample information "Datafile"
+INFO [2025-11-24 16:40:34] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-24 16:40:34] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-24 16:40:34] QC column generated from rows containing 'QC'
+INFO [2025-11-24 16:40:34] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-24 16:40:34] Pheno data was cleaned
+INFO [2025-11-24 16:40:35] Initializing 'Flag' column with unflagged features
+INFO [2025-11-24 16:40:35] Creating Split column from Column, Ion Mode
+INFO [2025-11-24 16:40:35] Feature_ID column not found, creating feature IDs
+INFO [2025-11-24 16:40:35] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 16:40:35] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 16:40:35] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-24 16:40:35] Feature data was cleaned
+INFO [2025-11-24 16:40:35] 
+Checking sample information
+INFO [2025-11-24 16:40:35] Checking 'Injection_order' column in feature data
+INFO [2025-11-24 16:40:35] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-24 16:40:35] Checking 'QC' column in feature data
+INFO [2025-11-24 16:40:35] Checking that feature abundances only contain numeric values
+INFO [2025-11-24 16:40:35] 
+Checking feature information
+INFO [2025-11-24 16:40:35] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-24 16:40:35] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-24 16:40:35] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 16:40:35] Identified m/z column mass and retention time column RT
+INFO [2025-11-24 16:40:35] Checking that feature data includes a 'Split' column
+INFO [2025-11-24 16:40:35] Checking that feature data includes a 'Flag' column
+INFO [2025-11-24 16:41:03] 
+48% of features flagged for low detection rate
+INFO [2025-11-24 16:41:11] 
+8% of features flagged for low detection rate
+INFO [2025-11-24 16:52:57] 
+8% of features flagged for low detection rate
+INFO [2025-11-24 17:00:28] 
+8% of features flagged for low detection rate
+INFO [2025-11-24 17:01:01] 
+8% of features flagged for low detection rate
+INFO [2025-11-24 17:01:37] 
+8% of features flagged for low detection rate
+INFO [2025-11-24 17:10:35] 
+8% of features flagged for low detection rate
+INFO [2025-11-25 13:00:37] Starting logging
+INFO [2025-11-25 13:00:43] Corner detected correctly at row 5, column M
+INFO [2025-11-25 13:00:43] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-25 13:00:43] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-25 13:00:43] Naming the last column of sample information "Datafile"
+INFO [2025-11-25 13:00:43] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-25 13:00:43] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-25 13:00:43] QC column generated from rows containing 'QC'
+INFO [2025-11-25 13:00:43] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-25 13:00:43] Pheno data was cleaned
+INFO [2025-11-25 13:00:44] Initializing 'Flag' column with unflagged features
+INFO [2025-11-25 13:00:44] Creating Split column from Column, Ion Mode
+INFO [2025-11-25 13:00:44] Feature_ID column not found, creating feature IDs
+INFO [2025-11-25 13:00:44] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 13:00:44] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 13:00:44] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-25 13:00:44] Feature data was cleaned
+INFO [2025-11-25 13:00:44] 
+Checking sample information
+INFO [2025-11-25 13:00:44] Checking 'Injection_order' column in feature data
+INFO [2025-11-25 13:00:44] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-25 13:00:44] Checking 'QC' column in feature data
+INFO [2025-11-25 13:00:44] Checking that feature abundances only contain numeric values
+INFO [2025-11-25 13:00:44] 
+Checking feature information
+INFO [2025-11-25 13:00:44] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-25 13:00:44] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-25 13:00:44] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 13:00:44] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 13:00:44] Checking that feature data includes a 'Split' column
+INFO [2025-11-25 13:00:44] Checking that feature data includes a 'Flag' column
+INFO [2025-11-25 13:01:03] 
+8% of features flagged for low detection rate
+INFO [2025-11-25 13:23:23] 
+8% of features flagged for low detection rate
+INFO [2025-11-25 13:23:34] Starting logging
+INFO [2025-11-25 13:23:39] Corner detected correctly at row 5, column M
+INFO [2025-11-25 13:23:39] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-25 13:23:39] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-25 13:23:39] Naming the last column of sample information "Datafile"
+INFO [2025-11-25 13:23:39] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-25 13:23:39] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-25 13:23:39] QC column generated from rows containing 'QC'
+INFO [2025-11-25 13:23:39] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-25 13:23:39] Pheno data was cleaned
+INFO [2025-11-25 13:23:40] Initializing 'Flag' column with unflagged features
+INFO [2025-11-25 13:23:40] Creating Split column from Column, Ion Mode
+INFO [2025-11-25 13:23:40] Feature_ID column not found, creating feature IDs
+INFO [2025-11-25 13:23:40] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 13:23:40] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 13:23:40] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-25 13:23:40] Feature data was cleaned
+INFO [2025-11-25 13:23:40] 
+Checking sample information
+INFO [2025-11-25 13:23:40] Checking 'Injection_order' column in feature data
+INFO [2025-11-25 13:23:40] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-25 13:23:40] Checking 'QC' column in feature data
+INFO [2025-11-25 13:23:40] Checking that feature abundances only contain numeric values
+INFO [2025-11-25 13:23:41] 
+Checking feature information
+INFO [2025-11-25 13:23:41] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-25 13:23:41] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-25 13:23:41] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 13:23:41] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 13:23:41] Checking that feature data includes a 'Split' column
+INFO [2025-11-25 13:23:41] Checking that feature data includes a 'Flag' column
+INFO [2025-11-25 13:23:58] 
+8% of features flagged for low detection rate
+INFO [2025-11-25 13:50:54] Starting drift correction
+INFO [2025-11-25 14:13:49] Recomputing quality metrics for drift corrected data
+INFO [2025-11-25 14:14:00] Drift correction performed
+INFO [2025-11-25 14:14:00] Inspecting drift correction results
+INFO [2025-11-25 14:14:00] Original quality metrics missing, recomputing
+INFO [2025-11-25 14:14:08] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-11-25 14:14:08] 
+15% of features flagged for low quality
+INFO [2025-11-25 15:31:49] 
+7% of features flagged for low detection rate
+INFO [2025-11-25 15:32:03] Corner detected correctly at row 5, column M
+INFO [2025-11-25 15:32:03] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-25 15:32:03] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-25 15:32:03] Naming the last column of sample information "Datafile"
+INFO [2025-11-25 15:32:03] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-25 15:32:03] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-25 15:32:03] QC column generated from rows containing 'QC'
+INFO [2025-11-25 15:32:03] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-25 15:32:03] Pheno data was cleaned
+INFO [2025-11-25 15:32:03] Initializing 'Flag' column with unflagged features
+INFO [2025-11-25 15:32:03] Creating Split column from Column, Ion Mode
+INFO [2025-11-25 15:32:03] Feature_ID column not found, creating feature IDs
+INFO [2025-11-25 15:32:03] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 15:32:03] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 15:32:03] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-25 15:32:04] Feature data was cleaned
+INFO [2025-11-25 15:32:04] 
+Checking sample information
+INFO [2025-11-25 15:32:04] Checking 'Injection_order' column in feature data
+INFO [2025-11-25 15:32:04] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-25 15:32:04] Checking 'QC' column in feature data
+INFO [2025-11-25 15:32:04] Checking that feature abundances only contain numeric values
+INFO [2025-11-25 15:32:04] 
+Checking feature information
+INFO [2025-11-25 15:32:04] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-25 15:32:04] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-25 15:32:04] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 15:32:04] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 15:32:04] Checking that feature data includes a 'Split' column
+INFO [2025-11-25 15:32:04] Checking that feature data includes a 'Flag' column
+INFO [2025-11-25 15:32:23] 
+8% of features flagged for low detection rate
+INFO [2025-11-25 15:39:38] Starting drift correction
+INFO [2025-11-25 15:40:39] Recomputing quality metrics for drift corrected data
+INFO [2025-11-25 15:40:42] Drift correction performed
+INFO [2025-11-25 15:40:42] Inspecting drift correction results
+INFO [2025-11-25 15:40:42] Original quality metrics missing, recomputing
+INFO [2025-11-25 15:40:45] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-11-25 15:40:45] 
+15% of features flagged for low quality
+INFO [2025-11-25 16:01:59] Starting drift correction
+INFO [2025-11-25 16:02:50] Recomputing quality metrics for drift corrected data
+INFO [2025-11-25 16:02:52] Drift correction performed
+INFO [2025-11-25 16:02:52] Inspecting drift correction results
+INFO [2025-11-25 16:02:52] Original quality metrics missing, recomputing
+INFO [2025-11-25 16:02:54] Drift correction results inspected: Drift_corrected: 28%,  Missing_QCS: 72%
+INFO [2025-11-25 16:02:54] Starting drift correction
+INFO [2025-11-25 16:03:40] Recomputing quality metrics for drift corrected data
+INFO [2025-11-25 16:03:42] Drift correction performed
+INFO [2025-11-25 16:03:42] Inspecting drift correction results
+INFO [2025-11-25 16:03:42] Original quality metrics missing, recomputing
+INFO [2025-11-25 16:03:44] Drift correction results inspected: Drift_corrected: 42%,  Missing_QCS: 58%
+INFO [2025-11-25 16:03:44] Starting drift correction
+INFO [2025-11-25 16:04:27] Recomputing quality metrics for drift corrected data
+INFO [2025-11-25 16:04:29] Drift correction performed
+INFO [2025-11-25 16:04:29] Inspecting drift correction results
+INFO [2025-11-25 16:04:29] Original quality metrics missing, recomputing
+INFO [2025-11-25 16:04:31] Drift correction results inspected: Drift_corrected: 50.5%,  Missing_QCS: 49.5%
+INFO [2025-11-25 16:09:14] Starting logging
+INFO [2025-11-25 16:09:17] Corner detected correctly at row 5, column M
+INFO [2025-11-25 16:09:17] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-25 16:09:17] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-25 16:09:17] Naming the last column of sample information "Datafile"
+INFO [2025-11-25 16:09:17] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-25 16:09:17] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-25 16:09:17] QC column generated from rows containing 'QC'
+INFO [2025-11-25 16:09:17] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-25 16:09:18] Pheno data was cleaned
+INFO [2025-11-25 16:09:18] Initializing 'Flag' column with unflagged features
+INFO [2025-11-25 16:09:18] Creating Split column from Column, Ion Mode
+INFO [2025-11-25 16:09:18] Feature_ID column not found, creating feature IDs
+INFO [2025-11-25 16:09:18] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 16:09:18] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 16:09:18] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-25 16:09:18] Feature data was cleaned
+INFO [2025-11-25 16:09:18] 
+Checking sample information
+INFO [2025-11-25 16:09:18] Checking 'Injection_order' column in feature data
+INFO [2025-11-25 16:09:18] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-25 16:09:18] Checking 'QC' column in feature data
+INFO [2025-11-25 16:09:18] Checking that feature abundances only contain numeric values
+INFO [2025-11-25 16:09:18] 
+Checking feature information
+INFO [2025-11-25 16:09:18] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-25 16:09:18] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-25 16:09:18] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 16:09:18] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 16:09:18] Checking that feature data includes a 'Split' column
+INFO [2025-11-25 16:09:18] Checking that feature data includes a 'Flag' column
+INFO [2025-11-25 16:09:36] 
+8% of features flagged for low detection rate
+INFO [2025-11-25 16:09:40] Starting drift correction
+INFO [2025-11-25 16:10:23] Recomputing quality metrics for drift corrected data
+INFO [2025-11-25 16:10:25] Drift correction performed
+INFO [2025-11-25 16:10:25] Inspecting drift correction results
+INFO [2025-11-25 16:10:25] Original quality metrics missing, recomputing
+INFO [2025-11-25 16:10:27] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-11-25 16:10:27] 
+15% of features flagged for low quality
+INFO [2025-11-25 16:11:17] Starting drift correction
+INFO [2025-11-25 16:12:00] Recomputing quality metrics for drift corrected data
+INFO [2025-11-25 16:12:02] Drift correction performed
+INFO [2025-11-25 16:12:02] Inspecting drift correction results
+INFO [2025-11-25 16:12:02] Original quality metrics missing, recomputing
+INFO [2025-11-25 16:12:04] Drift correction results inspected: Drift_corrected: 28%,  Missing_QCS: 72%
+INFO [2025-11-25 16:12:04] Starting drift correction
+INFO [2025-11-25 16:12:50] Recomputing quality metrics for drift corrected data
+INFO [2025-11-25 16:12:53] Drift correction performed
+INFO [2025-11-25 16:12:53] Inspecting drift correction results
+INFO [2025-11-25 16:12:53] Original quality metrics missing, recomputing
+INFO [2025-11-25 16:12:55] Drift correction results inspected: Drift_corrected: 42%,  Missing_QCS: 58%
+INFO [2025-11-25 16:12:55] Starting drift correction
+INFO [2025-11-25 16:13:51] Recomputing quality metrics for drift corrected data
+INFO [2025-11-25 16:13:54] Drift correction performed
+INFO [2025-11-25 16:13:54] Inspecting drift correction results
+INFO [2025-11-25 16:13:54] Original quality metrics missing, recomputing
+INFO [2025-11-25 16:13:56] Drift correction results inspected: Drift_corrected: 50.5%,  Missing_QCS: 49.5%
+INFO [2025-11-25 16:59:31] Starting drift correction
+INFO [2025-11-25 17:00:11] Recomputing quality metrics for drift corrected data
+INFO [2025-11-25 17:00:13] Drift correction performed
+INFO [2025-11-25 17:00:13] Inspecting drift correction results
+INFO [2025-11-25 17:00:13] Original quality metrics missing, recomputing
+INFO [2025-11-25 17:00:15] Drift correction results inspected: Drift_corrected: 28%,  Missing_QCS: 72%
+INFO [2025-11-25 17:00:16] Starting drift correction
+INFO [2025-11-25 17:00:50] Recomputing quality metrics for drift corrected data
+INFO [2025-11-25 17:00:52] Drift correction performed
+INFO [2025-11-25 17:00:52] Inspecting drift correction results
+INFO [2025-11-25 17:00:52] Original quality metrics missing, recomputing
+INFO [2025-11-25 17:00:54] Drift correction results inspected: Drift_corrected: 42%,  Missing_QCS: 58%
+INFO [2025-11-25 17:00:54] Starting drift correction
+INFO [2025-11-25 17:01:33] Recomputing quality metrics for drift corrected data
+INFO [2025-11-25 17:01:35] Drift correction performed
+INFO [2025-11-25 17:01:35] Inspecting drift correction results
+INFO [2025-11-25 17:01:35] Original quality metrics missing, recomputing
+INFO [2025-11-25 17:01:37] Drift correction results inspected: Drift_corrected: 50.5%,  Missing_QCS: 49.5%
+INFO [2025-11-25 17:01:37] 
+55% of features flagged for low quality
+INFO [2025-11-25 17:01:37] 
+45% of features flagged for low quality
+INFO [2025-11-25 17:01:38] 
+45% of features flagged for low quality
+INFO [2025-11-25 17:09:31] Starting drift correction
+INFO [2025-11-25 17:10:09] Recomputing quality metrics for drift corrected data
+INFO [2025-11-25 17:10:11] Drift correction performed
+INFO [2025-11-25 17:10:11] Inspecting drift correction results
+INFO [2025-11-25 17:10:11] Original quality metrics missing, recomputing
+INFO [2025-11-25 17:10:13] Drift correction results inspected: Drift_corrected: 28%,  Missing_QCS: 72%
+INFO [2025-11-25 17:10:14] Starting drift correction
+INFO [2025-11-25 21:05:16] Starting logging
+INFO [2025-11-25 21:05:22] Corner detected correctly at row 5, column M
+INFO [2025-11-25 21:05:22] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-25 21:05:22] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-25 21:05:22] Naming the last column of sample information "Datafile"
+INFO [2025-11-25 21:05:22] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-25 21:05:22] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-25 21:05:22] QC column generated from rows containing 'QC'
+INFO [2025-11-25 21:05:22] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-25 21:05:22] Pheno data was cleaned
+INFO [2025-11-25 21:05:23] Initializing 'Flag' column with unflagged features
+INFO [2025-11-25 21:05:23] Creating Split column from Column, Ion Mode
+INFO [2025-11-25 21:05:23] Feature_ID column not found, creating feature IDs
+INFO [2025-11-25 21:05:23] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 21:05:23] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 21:05:23] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-25 21:05:23] Feature data was cleaned
+INFO [2025-11-25 21:05:23] 
+Checking sample information
+INFO [2025-11-25 21:05:23] Checking 'Injection_order' column in feature data
+INFO [2025-11-25 21:05:23] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-25 21:05:23] Checking 'QC' column in feature data
+INFO [2025-11-25 21:05:23] Checking that feature abundances only contain numeric values
+INFO [2025-11-25 21:05:23] 
+Checking feature information
+INFO [2025-11-25 21:05:23] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-25 21:05:23] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-25 21:05:23] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 21:05:23] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 21:05:23] Checking that feature data includes a 'Split' column
+INFO [2025-11-25 21:05:23] Checking that feature data includes a 'Flag' column
+INFO [2025-11-25 21:07:27] 
+8% of features flagged for low detection rate
+INFO [2025-11-25 21:07:32] Starting drift correction
+INFO [2025-11-25 21:08:13] Starting drift correction
+INFO [2025-11-25 21:10:05] Starting drift correction
+INFO [2025-11-25 21:10:22] Starting drift correction
+INFO [2025-11-25 21:10:54] Starting drift correction
+INFO [2025-11-25 21:11:19] Starting drift correction
+INFO [2025-11-25 21:11:52] Starting drift correction
+INFO [2025-11-25 21:15:53] Starting logging
+INFO [2025-11-25 21:16:01] Corner detected correctly at row 5, column M
+INFO [2025-11-25 21:16:01] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-25 21:16:01] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-25 21:16:01] Naming the last column of sample information "Datafile"
+INFO [2025-11-25 21:16:01] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-25 21:16:01] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-25 21:16:01] QC column generated from rows containing 'QC'
+INFO [2025-11-25 21:16:01] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-25 21:16:01] Pheno data was cleaned
+INFO [2025-11-25 21:16:02] Initializing 'Flag' column with unflagged features
+INFO [2025-11-25 21:16:02] Creating Split column from Column, Ion Mode
+INFO [2025-11-25 21:16:02] Feature_ID column not found, creating feature IDs
+INFO [2025-11-25 21:16:02] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 21:16:02] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 21:16:02] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-25 21:16:02] Feature data was cleaned
+INFO [2025-11-25 21:16:02] 
+Checking sample information
+INFO [2025-11-25 21:16:02] Checking 'Injection_order' column in feature data
+INFO [2025-11-25 21:16:02] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-25 21:16:02] Checking 'QC' column in feature data
+INFO [2025-11-25 21:16:02] Checking that feature abundances only contain numeric values
+INFO [2025-11-25 21:16:03] 
+Checking feature information
+INFO [2025-11-25 21:16:03] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-25 21:16:03] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-25 21:16:03] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 21:16:03] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 21:16:03] Checking that feature data includes a 'Split' column
+INFO [2025-11-25 21:16:03] Checking that feature data includes a 'Flag' column
+INFO [2025-11-25 21:16:33] 
+8% of features flagged for low detection rate
+INFO [2025-11-25 21:16:43] Starting drift correction
+INFO [2025-11-25 21:17:19] Starting drift correction
+INFO [2025-11-25 21:17:28] Starting drift correction
+INFO [2025-11-25 21:19:18] Starting drift correction
+INFO [2025-11-25 21:26:07] 
+8% of features flagged for low detection rate
+INFO [2025-11-25 21:26:11] Starting drift correction
+INFO [2025-11-25 21:28:19] Recomputing quality metrics for drift corrected data
+INFO [2025-11-25 21:28:30] Drift correction performed
+INFO [2025-11-25 21:28:30] Inspecting drift correction results
+INFO [2025-11-25 21:28:30] Original quality metrics missing, recomputing
+INFO [2025-11-25 21:28:39] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-11-25 21:28:40] 
+15% of features flagged for low quality
+INFO [2025-11-25 21:33:18] Starting drift correction
+INFO [2025-11-25 21:35:12] Recomputing quality metrics for drift corrected data
+INFO [2025-11-25 21:35:21] Drift correction performed
+INFO [2025-11-25 21:35:21] Inspecting drift correction results
+INFO [2025-11-25 21:35:21] Original quality metrics missing, recomputing
+INFO [2025-11-25 21:35:28] Drift correction results inspected: Drift_corrected: 28%,  Missing_QCS: 72%
+INFO [2025-11-25 21:35:29] Starting drift correction
+INFO [2025-11-25 21:37:35] Recomputing quality metrics for drift corrected data
+INFO [2025-11-25 21:37:44] Drift correction performed
+INFO [2025-11-25 21:37:44] Inspecting drift correction results
+INFO [2025-11-25 21:37:44] Original quality metrics missing, recomputing
+INFO [2025-11-25 21:37:51] Drift correction results inspected: Drift_corrected: 42%,  Missing_QCS: 58%
+INFO [2025-11-25 21:37:52] Starting drift correction
+INFO [2025-11-25 21:39:57] Recomputing quality metrics for drift corrected data
+INFO [2025-11-25 21:40:00] Drift correction performed
+INFO [2025-11-25 21:40:00] Inspecting drift correction results
+INFO [2025-11-25 21:40:00] Original quality metrics missing, recomputing
+INFO [2025-11-25 21:40:07] Drift correction results inspected: Drift_corrected: 50.5%,  Missing_QCS: 49.5%
+INFO [2025-11-25 21:40:08] 
+55% of features flagged for low quality
+INFO [2025-11-25 21:40:08] 
+45% of features flagged for low quality
+INFO [2025-11-25 21:40:08] 
+45% of features flagged for low quality
+INFO [2025-11-25 21:51:19] 
+0% of features flagged for low detection rate
+INFO [2025-11-25 21:51:41] Starting logging
+INFO [2025-11-25 21:51:54] Corner detected correctly at row 5, column M
+INFO [2025-11-25 21:51:54] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-25 21:51:54] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-25 21:51:54] Naming the last column of sample information "Datafile"
+INFO [2025-11-25 21:51:54] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-25 21:51:54] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-25 21:51:55] QC column generated from rows containing 'QC'
+INFO [2025-11-25 21:51:55] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-25 21:51:55] Pheno data was cleaned
+INFO [2025-11-25 21:51:55] Initializing 'Flag' column with unflagged features
+INFO [2025-11-25 21:51:55] Creating Split column from Column, Ion Mode
+INFO [2025-11-25 21:51:55] Feature_ID column not found, creating feature IDs
+INFO [2025-11-25 21:51:55] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 21:51:55] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 21:51:55] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-25 21:51:55] Feature data was cleaned
+INFO [2025-11-25 21:51:55] 
+Checking sample information
+INFO [2025-11-25 21:51:55] Checking 'Injection_order' column in feature data
+INFO [2025-11-25 21:51:55] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-25 21:51:55] Checking 'QC' column in feature data
+INFO [2025-11-25 21:51:55] Checking that feature abundances only contain numeric values
+INFO [2025-11-25 21:51:56] 
+Checking feature information
+INFO [2025-11-25 21:51:56] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-25 21:51:56] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-25 21:51:56] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 21:51:56] Identified m/z column mass and retention time column RT
+INFO [2025-11-25 21:51:56] Checking that feature data includes a 'Split' column
+INFO [2025-11-25 21:51:56] Checking that feature data includes a 'Flag' column
+INFO [2025-11-25 21:52:31] 
+8% of features flagged for low detection rate
+INFO [2025-11-25 21:53:33] Starting drift correction
+INFO [2025-11-25 21:54:27] Recomputing quality metrics for drift corrected data
+INFO [2025-11-25 21:54:31] Drift correction performed
+INFO [2025-11-25 21:54:31] Inspecting drift correction results
+INFO [2025-11-25 21:54:31] Original quality metrics missing, recomputing
+INFO [2025-11-25 21:54:34] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-11-25 21:54:34] 
+15% of features flagged for low quality
+INFO [2025-11-27 15:15:17] Starting logging
+INFO [2025-11-27 15:15:23] Corner detected correctly at row 5, column M
+INFO [2025-11-27 15:15:23] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-27 15:15:23] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-27 15:15:23] Naming the last column of sample information "Datafile"
+INFO [2025-11-27 15:15:23] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-27 15:15:23] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-27 15:15:24] QC column generated from rows containing 'QC'
+INFO [2025-11-27 15:15:24] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-27 15:15:24] Pheno data was cleaned
+INFO [2025-11-27 15:15:24] Initializing 'Flag' column with unflagged features
+INFO [2025-11-27 15:15:24] Creating Split column from Column, Ion Mode
+INFO [2025-11-27 15:15:24] Feature_ID column not found, creating feature IDs
+INFO [2025-11-27 15:15:24] Identified m/z column mass and retention time column RT
+INFO [2025-11-27 15:15:24] Identified m/z column mass and retention time column RT
+INFO [2025-11-27 15:15:24] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-27 15:15:24] Feature data was cleaned
+INFO [2025-11-27 15:15:24] 
+Checking sample information
+INFO [2025-11-27 15:15:24] Checking 'Injection_order' column in feature data
+INFO [2025-11-27 15:15:24] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-27 15:15:24] Checking 'QC' column in feature data
+INFO [2025-11-27 15:15:24] Checking that feature abundances only contain numeric values
+INFO [2025-11-27 15:15:25] 
+Checking feature information
+INFO [2025-11-27 15:15:25] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-27 15:15:25] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-27 15:15:25] Identified m/z column mass and retention time column RT
+INFO [2025-11-27 15:15:25] Identified m/z column mass and retention time column RT
+INFO [2025-11-27 15:15:25] Checking that feature data includes a 'Split' column
+INFO [2025-11-27 15:15:25] Checking that feature data includes a 'Flag' column
+INFO [2025-11-27 15:15:48] 
+8% of features flagged for low detection rate
+INFO [2025-11-27 15:15:57] Starting drift correction
+INFO [2025-11-27 15:16:52] Recomputing quality metrics for drift corrected data
+INFO [2025-11-27 15:16:56] Drift correction performed
+INFO [2025-11-27 15:16:56] Inspecting drift correction results
+INFO [2025-11-27 15:16:56] Original quality metrics missing, recomputing
+INFO [2025-11-27 15:16:59] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-11-27 15:17:00] 
+15% of features flagged for low quality
+INFO [2025-11-27 15:20:39] 
+0% of features flagged for low detection rate
+INFO [2025-11-27 15:20:46] 
+0% of features flagged for low detection rate
+INFO [2025-11-27 15:21:01] 
+8% of features flagged for low detection rate
+INFO [2025-11-27 15:21:50] Starting drift correction
+INFO [2025-11-27 15:22:43] Recomputing quality metrics for drift corrected data
+INFO [2025-11-27 15:22:47] Drift correction performed
+INFO [2025-11-27 15:22:47] Inspecting drift correction results
+INFO [2025-11-27 15:22:47] Original quality metrics missing, recomputing
+INFO [2025-11-27 15:22:50] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-11-27 15:23:15] 
+15% of features flagged for low quality
+INFO [2025-11-27 15:23:54] Starting drift correction
+INFO [2025-11-27 15:24:46] Recomputing quality metrics for drift corrected data
+INFO [2025-11-27 15:24:50] Drift correction performed
+INFO [2025-11-27 15:24:50] Inspecting drift correction results
+INFO [2025-11-27 15:24:50] Original quality metrics missing, recomputing
+INFO [2025-11-27 15:24:53] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-11-27 15:27:28] 
+15% of features flagged for low quality
+INFO [2025-11-27 15:29:56] 
+8% of features flagged for low detection rate
+INFO [2025-11-27 15:30:00] Starting drift correction
+INFO [2025-11-27 15:31:58] Recomputing quality metrics for drift corrected data
+INFO [2025-11-27 15:32:02] Drift correction performed
+INFO [2025-11-27 15:32:02] Inspecting drift correction results
+INFO [2025-11-27 15:32:02] Original quality metrics missing, recomputing
+INFO [2025-11-27 15:32:05] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-11-27 15:32:05] 
+15% of features flagged for low quality
+INFO [2025-11-27 15:34:55] Starting drift correction
+INFO [2025-11-27 15:35:51] Recomputing quality metrics for drift corrected data
+INFO [2025-11-27 15:35:54] Drift correction performed
+INFO [2025-11-27 15:35:54] Inspecting drift correction results
+INFO [2025-11-27 15:35:54] Original quality metrics missing, recomputing
+INFO [2025-11-27 15:35:56] Drift correction results inspected: Drift_corrected: 28%,  Missing_QCS: 72%
+INFO [2025-11-27 15:35:56] Starting drift correction
+INFO [2025-11-27 15:36:49] Recomputing quality metrics for drift corrected data
+INFO [2025-11-27 15:36:52] Drift correction performed
+INFO [2025-11-27 15:36:52] Inspecting drift correction results
+INFO [2025-11-27 15:36:52] Original quality metrics missing, recomputing
+INFO [2025-11-27 15:36:54] Drift correction results inspected: Drift_corrected: 42%,  Missing_QCS: 58%
+INFO [2025-11-27 15:36:55] Starting drift correction
+INFO [2025-11-27 15:38:16] Recomputing quality metrics for drift corrected data
+INFO [2025-11-27 15:38:20] Drift correction performed
+INFO [2025-11-27 15:38:20] Inspecting drift correction results
+INFO [2025-11-27 15:38:20] Original quality metrics missing, recomputing
+INFO [2025-11-27 15:38:22] Drift correction results inspected: Drift_corrected: 50.5%,  Missing_QCS: 49.5%
+INFO [2025-11-27 15:38:22] 
+55% of features flagged for low quality
+INFO [2025-11-27 15:38:23] 
+45% of features flagged for low quality
+INFO [2025-11-27 15:38:23] 
+45% of features flagged for low quality
+INFO [2025-11-27 17:04:55] Starting drift correction
+INFO [2025-11-27 17:05:47] Recomputing quality metrics for drift corrected data
+INFO [2025-11-27 17:05:50] Drift correction performed
+INFO [2025-11-27 17:05:50] Inspecting drift correction results
+INFO [2025-11-27 17:05:50] Original quality metrics missing, recomputing
+INFO [2025-11-27 17:05:53] Drift correction results inspected: Drift_corrected: 28%,  Missing_QCS: 72%
+INFO [2025-11-27 17:05:54] Starting drift correction
+INFO [2025-11-27 17:06:47] Recomputing quality metrics for drift corrected data
+INFO [2025-11-27 17:06:51] Drift correction performed
+INFO [2025-11-27 17:06:51] Inspecting drift correction results
+INFO [2025-11-27 17:06:51] Original quality metrics missing, recomputing
+INFO [2025-11-27 17:06:54] Drift correction results inspected: Drift_corrected: 42%,  Missing_QCS: 58%
+INFO [2025-11-27 17:06:54] Starting drift correction
+INFO [2025-11-27 17:07:46] Recomputing quality metrics for drift corrected data
+INFO [2025-11-27 17:07:49] Drift correction performed
+INFO [2025-11-27 17:07:49] Inspecting drift correction results
+INFO [2025-11-27 17:07:49] Original quality metrics missing, recomputing
+INFO [2025-11-27 17:07:51] Drift correction results inspected: Drift_corrected: 50.5%,  Missing_QCS: 49.5%
+INFO [2025-11-27 17:07:52] 
+55% of features flagged for low quality
+INFO [2025-11-27 17:07:52] 
+45% of features flagged for low quality
+INFO [2025-11-27 17:07:52] 
+45% of features flagged for low quality
+INFO [2025-11-28 10:54:18] Starting logging
+INFO [2025-11-28 10:54:25] Corner detected correctly at row 5, column M
+INFO [2025-11-28 10:54:25] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-28 10:54:25] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-28 10:54:25] Naming the last column of sample information "Datafile"
+INFO [2025-11-28 10:54:25] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-28 10:54:25] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-28 10:54:25] QC column generated from rows containing 'QC'
+INFO [2025-11-28 10:54:25] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-28 10:54:25] Pheno data was cleaned
+INFO [2025-11-28 10:54:26] Initializing 'Flag' column with unflagged features
+INFO [2025-11-28 10:54:26] Creating Split column from Column, Ion Mode
+INFO [2025-11-28 10:54:26] Feature_ID column not found, creating feature IDs
+INFO [2025-11-28 10:54:26] Identified m/z column mass and retention time column RT
+INFO [2025-11-28 10:54:26] Identified m/z column mass and retention time column RT
+INFO [2025-11-28 10:54:26] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-28 10:54:26] Feature data was cleaned
+INFO [2025-11-28 10:54:26] 
+Checking sample information
+INFO [2025-11-28 10:54:26] Checking 'Injection_order' column in feature data
+INFO [2025-11-28 10:54:26] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-28 10:54:26] Checking 'QC' column in feature data
+INFO [2025-11-28 10:54:26] Checking that feature abundances only contain numeric values
+INFO [2025-11-28 10:54:26] 
+Checking feature information
+INFO [2025-11-28 10:54:26] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-28 10:54:26] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-28 10:54:26] Identified m/z column mass and retention time column RT
+INFO [2025-11-28 10:54:26] Identified m/z column mass and retention time column RT
+INFO [2025-11-28 10:54:26] Checking that feature data includes a 'Split' column
+INFO [2025-11-28 10:54:26] Checking that feature data includes a 'Flag' column
+INFO [2025-11-28 10:54:41] 
+8% of features flagged for low detection rate
+INFO [2025-11-28 10:54:48] Starting drift correction
+INFO [2025-11-28 10:55:41] Recomputing quality metrics for drift corrected data
+INFO [2025-11-28 10:55:44] Drift correction performed
+INFO [2025-11-28 10:55:44] Inspecting drift correction results
+INFO [2025-11-28 10:55:44] Original quality metrics missing, recomputing
+INFO [2025-11-28 10:55:47] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-11-28 10:55:47] 
+15% of features flagged for low quality
+INFO [2025-11-28 10:57:29] Starting drift correction
+INFO [2025-11-28 10:58:18] Recomputing quality metrics for drift corrected data
+INFO [2025-11-28 10:58:20] Drift correction performed
+INFO [2025-11-28 10:58:20] Inspecting drift correction results
+INFO [2025-11-28 10:58:20] Original quality metrics missing, recomputing
+INFO [2025-11-28 10:58:22] Drift correction results inspected: Drift_corrected: 28%,  Missing_QCS: 72%
+INFO [2025-11-28 10:58:22] Starting drift correction
+INFO [2025-11-28 10:59:10] Recomputing quality metrics for drift corrected data
+INFO [2025-11-28 10:59:13] Drift correction performed
+INFO [2025-11-28 10:59:13] Inspecting drift correction results
+INFO [2025-11-28 10:59:13] Original quality metrics missing, recomputing
+INFO [2025-11-28 10:59:15] Drift correction results inspected: Drift_corrected: 42%,  Missing_QCS: 58%
+INFO [2025-11-28 10:59:16] Starting drift correction
+INFO [2025-11-28 11:00:03] Recomputing quality metrics for drift corrected data
+INFO [2025-11-28 11:00:06] Drift correction performed
+INFO [2025-11-28 11:00:06] Inspecting drift correction results
+INFO [2025-11-28 11:00:06] Original quality metrics missing, recomputing
+INFO [2025-11-28 11:00:09] Drift correction results inspected: Drift_corrected: 50.5%,  Missing_QCS: 49.5%
+INFO [2025-11-28 11:00:09] 
+55% of features flagged for low quality
+INFO [2025-11-28 11:00:09] 
+45% of features flagged for low quality
+INFO [2025-11-28 11:00:09] 
+45% of features flagged for low quality
+INFO [2025-11-28 13:14:11] Starting drift correction
+INFO [2025-11-28 13:14:55] Recomputing quality metrics for drift corrected data
+INFO [2025-11-28 13:14:57] Drift correction performed
+INFO [2025-11-28 13:14:57] Inspecting drift correction results
+INFO [2025-11-28 13:14:57] Original quality metrics missing, recomputing
+INFO [2025-11-28 13:14:59] Drift correction results inspected: Drift_corrected: 28%,  Missing_QCS: 72%
+INFO [2025-11-28 13:14:59] Starting drift correction
+INFO [2025-11-28 13:15:39] Recomputing quality metrics for drift corrected data
+INFO [2025-11-28 13:15:41] Drift correction performed
+INFO [2025-11-28 13:15:41] Inspecting drift correction results
+INFO [2025-11-28 13:15:41] Original quality metrics missing, recomputing
+INFO [2025-11-28 13:15:43] Drift correction results inspected: Drift_corrected: 42%,  Missing_QCS: 58%
+INFO [2025-11-28 13:15:44] Starting drift correction
+INFO [2025-11-28 13:16:28] Recomputing quality metrics for drift corrected data
+INFO [2025-11-28 13:16:31] Drift correction performed
+INFO [2025-11-28 13:16:31] Inspecting drift correction results
+INFO [2025-11-28 13:16:31] Original quality metrics missing, recomputing
+INFO [2025-11-28 13:16:33] Drift correction results inspected: Drift_corrected: 50.5%,  Missing_QCS: 49.5%
+INFO [2025-11-28 13:16:33] 
+55% of features flagged for low quality
+INFO [2025-11-28 13:16:33] 
+45% of features flagged for low quality
+INFO [2025-11-28 13:16:34] 
+45% of features flagged for low quality
+INFO [2025-11-28 13:38:20] Starting logging
+INFO [2025-11-28 16:06:44] Starting logging
+INFO [2025-11-28 16:06:48] Corner detected correctly at row 5, column M
+INFO [2025-11-28 16:06:48] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-28 16:06:48] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-28 16:06:48] Naming the last column of sample information "Datafile"
+INFO [2025-11-28 16:06:48] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-28 16:06:48] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-28 16:06:48] QC column generated from rows containing 'QC'
+INFO [2025-11-28 16:06:48] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-28 16:06:48] Pheno data was cleaned
+INFO [2025-11-28 16:06:48] Initializing 'Flag' column with unflagged features
+INFO [2025-11-28 16:06:48] Creating Split column from Column, Ion Mode
+INFO [2025-11-28 16:06:48] Feature_ID column not found, creating feature IDs
+INFO [2025-11-28 16:06:48] Identified m/z column mass and retention time column RT
+INFO [2025-11-28 16:06:48] Identified m/z column mass and retention time column RT
+INFO [2025-11-28 16:06:48] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-28 16:06:49] Feature data was cleaned
+INFO [2025-11-28 16:06:49] 
+Checking sample information
+INFO [2025-11-28 16:06:49] Checking 'Injection_order' column in feature data
+INFO [2025-11-28 16:06:49] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-28 16:06:49] Checking 'QC' column in feature data
+INFO [2025-11-28 16:06:49] Checking that feature abundances only contain numeric values
+INFO [2025-11-28 16:06:49] 
+Checking feature information
+INFO [2025-11-28 16:06:49] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-28 16:06:49] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-28 16:06:49] Identified m/z column mass and retention time column RT
+INFO [2025-11-28 16:06:49] Identified m/z column mass and retention time column RT
+INFO [2025-11-28 16:06:49] Checking that feature data includes a 'Split' column
+INFO [2025-11-28 16:06:49] Checking that feature data includes a 'Flag' column
+INFO [2025-11-28 16:07:23] 
+8% of features flagged for low detection rate
+INFO [2025-11-28 16:07:28] Starting drift correction
+INFO [2025-11-28 16:08:14] Recomputing quality metrics for drift corrected data
+INFO [2025-11-28 16:08:16] Drift correction performed
+INFO [2025-11-28 16:08:16] Inspecting drift correction results
+INFO [2025-11-28 16:08:16] Original quality metrics missing, recomputing
+INFO [2025-11-28 16:08:18] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-11-28 16:08:19] 
+15% of features flagged for low quality
+INFO [2025-11-28 16:09:10] Starting drift correction
+INFO [2025-11-28 16:09:53] Recomputing quality metrics for drift corrected data
+INFO [2025-11-28 16:09:55] Drift correction performed
+INFO [2025-11-28 16:09:55] Inspecting drift correction results
+INFO [2025-11-28 16:09:55] Original quality metrics missing, recomputing
+INFO [2025-11-28 16:09:58] Drift correction results inspected: Drift_corrected: 28%,  Missing_QCS: 72%
+INFO [2025-11-28 16:09:58] Starting drift correction
+INFO [2025-11-28 16:10:41] Recomputing quality metrics for drift corrected data
+INFO [2025-11-28 16:10:44] Drift correction performed
+INFO [2025-11-28 16:10:44] Inspecting drift correction results
+INFO [2025-11-28 16:10:44] Original quality metrics missing, recomputing
+INFO [2025-11-28 16:10:45] Drift correction results inspected: Drift_corrected: 42%,  Missing_QCS: 58%
+INFO [2025-11-28 16:10:46] Starting drift correction
+INFO [2025-11-28 16:11:32] Recomputing quality metrics for drift corrected data
+INFO [2025-11-28 16:11:35] Drift correction performed
+INFO [2025-11-28 16:11:35] Inspecting drift correction results
+INFO [2025-11-28 16:11:35] Original quality metrics missing, recomputing
+INFO [2025-11-28 16:11:37] Drift correction results inspected: Drift_corrected: 50.5%,  Missing_QCS: 49.5%
+INFO [2025-11-28 16:11:38] 
+55% of features flagged for low quality
+INFO [2025-11-28 16:11:38] 
+45% of features flagged for low quality
+INFO [2025-11-28 16:11:38] 
+45% of features flagged for low quality
+INFO [2025-11-30 13:11:09] Starting logging
+INFO [2025-11-30 13:11:16] Corner detected correctly at row 5, column M
+INFO [2025-11-30 13:11:16] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-11-30 13:11:16] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-11-30 13:11:16] Naming the last column of sample information "Datafile"
+INFO [2025-11-30 13:11:16] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-11-30 13:11:16] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-11-30 13:11:16] QC column generated from rows containing 'QC'
+INFO [2025-11-30 13:11:16] Sample ID generated from injection orders and prefix ID_
+INFO [2025-11-30 13:11:16] Pheno data was cleaned
+INFO [2025-11-30 13:11:17] Initializing 'Flag' column with unflagged features
+INFO [2025-11-30 13:11:17] Creating Split column from Column, Ion Mode
+INFO [2025-11-30 13:11:17] Feature_ID column not found, creating feature IDs
+INFO [2025-11-30 13:11:17] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 13:11:17] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 13:11:17] Creating feature IDs from Split, m/z and retention time
+INFO [2025-11-30 13:11:17] Feature data was cleaned
+INFO [2025-11-30 13:11:17] 
+Checking sample information
+INFO [2025-11-30 13:11:17] Checking 'Injection_order' column in feature data
+INFO [2025-11-30 13:11:17] Checking 'Sample_ID' column in pheno data
+INFO [2025-11-30 13:11:17] Checking 'QC' column in feature data
+INFO [2025-11-30 13:11:17] Checking that feature abundances only contain numeric values
+INFO [2025-11-30 13:11:17] 
+Checking feature information
+INFO [2025-11-30 13:11:17] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-11-30 13:11:17] Checking that m/z and retention time values are reasonable.
+INFO [2025-11-30 13:11:17] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 13:11:17] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 13:11:17] Checking that feature data includes a 'Split' column
+INFO [2025-11-30 13:11:17] Checking that feature data includes a 'Flag' column
+INFO [2025-11-30 13:11:30] 
+8% of features flagged for low detection rate
+INFO [2025-11-30 13:11:35] Starting drift correction
+INFO [2025-11-30 13:12:32] Recomputing quality metrics for drift corrected data
+INFO [2025-11-30 13:12:36] Drift correction performed
+INFO [2025-11-30 13:12:36] Inspecting drift correction results
+INFO [2025-11-30 13:12:36] Original quality metrics missing, recomputing
+INFO [2025-11-30 13:12:39] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-11-30 13:12:39] 
+15% of features flagged for low quality
+INFO [2025-11-30 13:13:08] Starting drift correction
+INFO [2025-11-30 13:14:00] Recomputing quality metrics for drift corrected data
+INFO [2025-11-30 13:14:03] Drift correction performed
+INFO [2025-11-30 13:14:03] Inspecting drift correction results
+INFO [2025-11-30 13:14:03] Original quality metrics missing, recomputing
+INFO [2025-11-30 13:14:05] Drift correction results inspected: Drift_corrected: 28%,  Missing_QCS: 72%
+INFO [2025-11-30 13:14:05] Starting drift correction
+INFO [2025-11-30 13:15:00] Recomputing quality metrics for drift corrected data
+INFO [2025-11-30 13:15:03] Drift correction performed
+INFO [2025-11-30 13:15:03] Inspecting drift correction results
+INFO [2025-11-30 13:15:03] Original quality metrics missing, recomputing
+INFO [2025-11-30 13:15:05] Drift correction results inspected: Drift_corrected: 42%,  Missing_QCS: 58%
+INFO [2025-11-30 13:15:05] Starting drift correction
+INFO [2025-11-30 13:15:55] Recomputing quality metrics for drift corrected data
+INFO [2025-11-30 13:15:59] Drift correction performed
+INFO [2025-11-30 13:15:59] Inspecting drift correction results
+INFO [2025-11-30 13:15:59] Original quality metrics missing, recomputing
+INFO [2025-11-30 13:16:01] Drift correction results inspected: Drift_corrected: 50.5%,  Missing_QCS: 49.5%
+INFO [2025-11-30 13:16:01] 
+55% of features flagged for low quality
+INFO [2025-11-30 13:16:01] 
+45% of features flagged for low quality
+INFO [2025-11-30 13:16:02] 
+45% of features flagged for low quality
+INFO [2025-11-30 14:03:56] 
+0% of features flagged for low quality
+INFO [2025-11-30 14:08:22] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 14:08:22] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 14:12:44] 
+4% of features flagged for low quality
+INFO [2025-11-30 14:12:56] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 14:12:56] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 14:37:06] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 14:37:06] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 14:45:44] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 14:45:44] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 14:49:39] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 14:49:39] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 14:53:56] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 14:53:56] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 15:00:08] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 15:00:08] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 15:00:17] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 15:00:17] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 15:00:51] Identified m/z column mass and retention time column RT
+INFO [2025-11-30 15:00:51] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 10:53:14] Starting logging
+INFO [2025-12-02 10:53:19] Corner detected correctly at row 5, column M
+INFO [2025-12-02 10:53:19] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-12-02 10:53:19] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-02 10:53:19] Naming the last column of sample information "Datafile"
+INFO [2025-12-02 10:53:19] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-12-02 10:53:19] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-12-02 10:53:19] QC column generated from rows containing 'QC'
+INFO [2025-12-02 10:53:19] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-02 10:53:20] Pheno data was cleaned
+INFO [2025-12-02 10:53:20] Initializing 'Flag' column with unflagged features
+INFO [2025-12-02 10:53:20] Creating Split column from Column, Ion Mode
+INFO [2025-12-02 10:53:20] Feature_ID column not found, creating feature IDs
+INFO [2025-12-02 10:53:20] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 10:53:20] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 10:53:20] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-02 10:53:20] Feature data was cleaned
+INFO [2025-12-02 10:53:20] 
+Checking sample information
+INFO [2025-12-02 10:53:20] Checking 'Injection_order' column in feature data
+INFO [2025-12-02 10:53:20] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-02 10:53:20] Checking 'QC' column in feature data
+INFO [2025-12-02 10:53:20] Checking that feature abundances only contain numeric values
+INFO [2025-12-02 10:53:20] 
+Checking feature information
+INFO [2025-12-02 10:53:20] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-02 10:53:20] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-02 10:53:20] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 10:53:20] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 10:53:20] Checking that feature data includes a 'Split' column
+INFO [2025-12-02 10:53:20] Checking that feature data includes a 'Flag' column
+INFO [2025-12-02 11:27:46] Corner detected correctly at row 5, column M
+INFO [2025-12-02 11:27:46] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-12-02 11:27:46] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-02 11:27:46] Naming the last column of sample information "Datafile"
+INFO [2025-12-02 11:27:46] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-12-02 11:27:46] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-12-02 11:27:46] QC column generated from rows containing 'QC'
+INFO [2025-12-02 11:27:46] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-02 11:27:46] Pheno data was cleaned
+INFO [2025-12-02 11:27:47] Initializing 'Flag' column with unflagged features
+INFO [2025-12-02 11:27:47] Creating Split column from Column, Ion Mode
+INFO [2025-12-02 11:27:47] Feature_ID column not found, creating feature IDs
+INFO [2025-12-02 11:27:47] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 11:27:47] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 11:27:47] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-02 11:27:48] Feature data was cleaned
+INFO [2025-12-02 11:27:48] 
+Checking sample information
+INFO [2025-12-02 11:27:48] Checking 'Injection_order' column in feature data
+INFO [2025-12-02 11:27:48] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-02 11:27:48] Checking 'QC' column in feature data
+INFO [2025-12-02 11:27:48] Checking that feature abundances only contain numeric values
+INFO [2025-12-02 11:27:48] 
+Checking feature information
+INFO [2025-12-02 11:27:48] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-02 11:27:48] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-02 11:27:48] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 11:27:48] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 11:27:48] Checking that feature data includes a 'Split' column
+INFO [2025-12-02 11:27:48] Checking that feature data includes a 'Flag' column
+INFO [2025-12-02 11:27:55] 
+8% of features flagged for low detection rate
+INFO [2025-12-02 11:30:19] 
+7% of features flagged for Low QC detection rate
+INFO [2025-12-02 11:30:31] Starting drift correction
+INFO [2025-12-02 11:31:20] Recomputing quality metrics for drift corrected data
+INFO [2025-12-02 11:31:23] Drift correction performed
+INFO [2025-12-02 11:31:23] Inspecting drift correction results
+INFO [2025-12-02 11:31:23] Original quality metrics missing, recomputing
+INFO [2025-12-02 11:31:25] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-12-02 11:31:25] 
+15% of features flagged for low quality
+INFO [2025-12-02 11:34:23] 
+7% of features flagged for low detection rate
+INFO [2025-12-02 11:34:29] 
+7% of features flagged for low detection rate
+INFO [2025-12-02 11:34:45] 
+8% of features flagged for low detection rate
+INFO [2025-12-02 11:34:45] 
+7% of features flagged for Low QC detection rate
+INFO [2025-12-02 11:35:20] Starting drift correction
+INFO [2025-12-02 11:35:59] Recomputing quality metrics for drift corrected data
+INFO [2025-12-02 11:36:01] Drift correction performed
+INFO [2025-12-02 11:36:01] Inspecting drift correction results
+INFO [2025-12-02 11:36:01] Original quality metrics missing, recomputing
+INFO [2025-12-02 11:36:03] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-12-02 11:36:04] 
+15% of features flagged for low quality
+INFO [2025-12-02 11:37:25] 
+7% of features flagged for low detection rate
+INFO [2025-12-02 11:37:34] Corner detected correctly at row 5, column M
+INFO [2025-12-02 11:37:34] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-12-02 11:37:34] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-02 11:37:34] Naming the last column of sample information "Datafile"
+INFO [2025-12-02 11:37:34] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-12-02 11:37:34] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-12-02 11:37:34] QC column generated from rows containing 'QC'
+INFO [2025-12-02 11:37:34] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-02 11:37:34] Pheno data was cleaned
+INFO [2025-12-02 11:37:35] Initializing 'Flag' column with unflagged features
+INFO [2025-12-02 11:37:35] Creating Split column from Column, Ion Mode
+INFO [2025-12-02 11:37:35] Feature_ID column not found, creating feature IDs
+INFO [2025-12-02 11:37:35] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 11:37:35] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 11:37:35] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-02 11:37:35] Feature data was cleaned
+INFO [2025-12-02 11:37:35] 
+Checking sample information
+INFO [2025-12-02 11:37:35] Checking 'Injection_order' column in feature data
+INFO [2025-12-02 11:37:35] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-02 11:37:35] Checking 'QC' column in feature data
+INFO [2025-12-02 11:37:35] Checking that feature abundances only contain numeric values
+INFO [2025-12-02 11:37:35] 
+Checking feature information
+INFO [2025-12-02 11:37:35] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-02 11:37:35] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-02 11:37:35] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 11:37:35] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 11:37:35] Checking that feature data includes a 'Split' column
+INFO [2025-12-02 11:37:35] Checking that feature data includes a 'Flag' column
+INFO [2025-12-02 11:37:47] 
+8% of features flagged for low detection rate
+INFO [2025-12-02 11:37:47] 
+7% of features flagged for Low QC detection rate
+INFO [2025-12-02 11:38:21] Starting drift correction
+INFO [2025-12-02 11:38:59] Recomputing quality metrics for drift corrected data
+INFO [2025-12-02 11:39:02] Drift correction performed
+INFO [2025-12-02 11:39:02] Inspecting drift correction results
+INFO [2025-12-02 11:39:02] Original quality metrics missing, recomputing
+INFO [2025-12-02 11:39:04] Drift correction results inspected: Drift_corrected: 56%,  Missing_QCS: 44%
+INFO [2025-12-02 11:40:03] Corner detected correctly at row 5, column M
+INFO [2025-12-02 11:40:03] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-12-02 11:40:03] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-02 11:40:03] Naming the last column of sample information "Datafile"
+INFO [2025-12-02 11:40:03] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-12-02 11:40:03] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-12-02 11:40:03] QC column generated from rows containing 'QC'
+INFO [2025-12-02 11:40:03] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-02 11:40:03] Pheno data was cleaned
+INFO [2025-12-02 11:40:03] Initializing 'Flag' column with unflagged features
+INFO [2025-12-02 11:40:03] Creating Split column from Column, Ion Mode
+INFO [2025-12-02 11:40:03] Feature_ID column not found, creating feature IDs
+INFO [2025-12-02 11:40:03] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 11:40:03] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 11:40:03] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-02 11:40:03] Feature data was cleaned
+INFO [2025-12-02 11:40:03] 
+Checking sample information
+INFO [2025-12-02 11:40:03] Checking 'Injection_order' column in feature data
+INFO [2025-12-02 11:40:03] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-02 11:40:03] Checking 'QC' column in feature data
+INFO [2025-12-02 11:40:03] Checking that feature abundances only contain numeric values
+INFO [2025-12-02 11:40:04] 
+Checking feature information
+INFO [2025-12-02 11:40:04] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-02 11:40:04] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-02 11:40:04] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 11:40:04] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 11:40:04] Checking that feature data includes a 'Split' column
+INFO [2025-12-02 11:40:04] Checking that feature data includes a 'Flag' column
+INFO [2025-12-02 11:40:20] 
+8% of features flagged for low detection rate
+INFO [2025-12-02 11:42:02] 
+8% of features flagged for low detection rate
+INFO [2025-12-02 11:42:03] 
+7% of features flagged for Low QC detection rate
+INFO [2025-12-02 11:42:10] Starting drift correction
+INFO [2025-12-02 11:42:51] Recomputing quality metrics for drift corrected data
+INFO [2025-12-02 11:42:53] Drift correction performed
+INFO [2025-12-02 11:42:53] Inspecting drift correction results
+INFO [2025-12-02 11:42:53] Original quality metrics missing, recomputing
+INFO [2025-12-02 11:42:55] Drift correction results inspected: Drift_corrected: 60%,  Missing_QCS: 40%
+INFO [2025-12-02 11:42:55] 
+16% of features flagged for low quality
+INFO [2025-12-02 11:49:15] Starting drift correction
+INFO [2025-12-02 11:49:59] Recomputing quality metrics for drift corrected data
+INFO [2025-12-02 11:50:02] Drift correction performed
+INFO [2025-12-02 11:50:02] Inspecting drift correction results
+INFO [2025-12-02 11:50:02] Original quality metrics missing, recomputing
+INFO [2025-12-02 11:50:04] Drift correction results inspected: Drift_corrected: 60%,  Missing_QCS: 40%
+INFO [2025-12-02 11:50:04] 
+16% of features flagged for low quality
+INFO [2025-12-02 11:56:02] 
+0% of features flagged for low detection rate
+INFO [2025-12-02 11:56:08] 
+8% of features flagged for low detection rate
+INFO [2025-12-02 11:56:08] 
+7% of features flagged for Low QC detection rate
+INFO [2025-12-02 12:01:40] Starting drift correction
+INFO [2025-12-02 12:02:22] Recomputing quality metrics for drift corrected data
+INFO [2025-12-02 12:02:26] Drift correction performed
+INFO [2025-12-02 12:02:26] Inspecting drift correction results
+INFO [2025-12-02 12:02:26] Original quality metrics missing, recomputing
+INFO [2025-12-02 12:02:28] Drift correction results inspected: Drift_corrected: 60%,  Missing_QCS: 40%
+INFO [2025-12-02 12:02:28] 
+16% of features flagged for low quality
+INFO [2025-12-02 12:21:46] Starting drift correction
+INFO [2025-12-02 12:22:21] Recomputing quality metrics for drift corrected data
+INFO [2025-12-02 12:22:23] Drift correction performed
+INFO [2025-12-02 12:22:23] Inspecting drift correction results
+INFO [2025-12-02 12:22:23] Original quality metrics missing, recomputing
+INFO [2025-12-02 12:22:26] Drift correction results inspected: Drift_corrected: 30%,  Missing_QCS: 70%
+INFO [2025-12-02 12:23:07] Starting drift correction
+INFO [2025-12-02 12:23:44] Recomputing quality metrics for drift corrected data
+INFO [2025-12-02 12:23:46] Drift correction performed
+INFO [2025-12-02 12:23:46] Inspecting drift correction results
+INFO [2025-12-02 12:23:46] Original quality metrics missing, recomputing
+INFO [2025-12-02 12:23:48] Drift correction results inspected: Drift_corrected: 45%,  Missing_QCS: 55%
+INFO [2025-12-02 12:24:22] Starting drift correction
+INFO [2025-12-02 12:24:59] Recomputing quality metrics for drift corrected data
+INFO [2025-12-02 12:25:01] Drift correction performed
+INFO [2025-12-02 12:25:01] Inspecting drift correction results
+INFO [2025-12-02 12:25:01] Original quality metrics missing, recomputing
+INFO [2025-12-02 12:25:03] Drift correction results inspected: Drift_corrected: 54%,  Missing_QCS: 46%
+INFO [2025-12-02 12:25:41] 
+54% of features flagged for low quality
+INFO [2025-12-02 12:26:00] 
+44% of features flagged for low quality
+INFO [2025-12-02 12:26:06] 
+43% of features flagged for low quality
+INFO [2025-12-02 12:29:19] Starting drift correction
+INFO [2025-12-02 12:29:55] Recomputing quality metrics for drift corrected data
+INFO [2025-12-02 12:29:57] Drift correction performed
+INFO [2025-12-02 12:29:57] Inspecting drift correction results
+INFO [2025-12-02 12:29:57] Original quality metrics missing, recomputing
+INFO [2025-12-02 12:29:59] Drift correction results inspected: Drift_corrected: 30%,  Missing_QCS: 70%
+INFO [2025-12-02 12:29:59] Starting drift correction
+INFO [2025-12-02 12:30:35] Recomputing quality metrics for drift corrected data
+INFO [2025-12-02 12:30:37] Drift correction performed
+INFO [2025-12-02 12:30:37] Inspecting drift correction results
+INFO [2025-12-02 12:30:37] Original quality metrics missing, recomputing
+INFO [2025-12-02 12:30:39] Drift correction results inspected: Drift_corrected: 45%,  Missing_QCS: 55%
+INFO [2025-12-02 12:30:39] Starting drift correction
+INFO [2025-12-02 12:31:23] Recomputing quality metrics for drift corrected data
+INFO [2025-12-02 12:31:26] Drift correction performed
+INFO [2025-12-02 12:31:26] Inspecting drift correction results
+INFO [2025-12-02 12:31:26] Original quality metrics missing, recomputing
+INFO [2025-12-02 12:31:27] Drift correction results inspected: Drift_corrected: 54%,  Missing_QCS: 46%
+INFO [2025-12-02 12:31:28] 
+54% of features flagged for low quality
+INFO [2025-12-02 12:31:28] 
+44% of features flagged for low quality
+INFO [2025-12-02 12:31:28] 
+43% of features flagged for low quality
+INFO [2025-12-02 13:46:25] 
+5% of features flagged for low quality
+INFO [2025-12-02 13:47:16] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 13:47:16] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:12:16] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:12:16] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:14:28] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:14:28] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:18:18] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:18:18] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:19:30] Corner detected correctly at row 5, column M
+INFO [2025-12-02 14:19:30] 
+Extracting sample information from rows 1 to 5 and columns N to AT
+INFO [2025-12-02 14:19:30] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-02 14:19:30] Naming the last column of sample information "Datafile"
+INFO [2025-12-02 14:19:30] 
+Extracting feature information from rows 6 to 10937 and columns A to M
+INFO [2025-12-02 14:19:30] 
+Extracting feature abundances from rows 6 to 10937 and columns N to AT
+INFO [2025-12-02 14:19:30] QC column generated from rows containing 'QC'
+INFO [2025-12-02 14:19:30] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-02 14:19:30] Pheno data was cleaned
+INFO [2025-12-02 14:19:31] Initializing 'Flag' column with unflagged features
+INFO [2025-12-02 14:19:31] Creating Split column from Column, Ion Mode
+INFO [2025-12-02 14:19:31] Feature_ID column not found, creating feature IDs
+INFO [2025-12-02 14:19:31] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:19:31] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:19:31] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-02 14:19:31] Feature data was cleaned
+INFO [2025-12-02 14:19:31] 
+Checking sample information
+INFO [2025-12-02 14:19:31] Checking 'Injection_order' column in feature data
+INFO [2025-12-02 14:19:31] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-02 14:19:31] Checking 'QC' column in feature data
+INFO [2025-12-02 14:19:31] Checking that feature abundances only contain numeric values
+INFO [2025-12-02 14:19:31] 
+Checking feature information
+INFO [2025-12-02 14:19:31] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-02 14:19:31] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-02 14:19:31] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:19:31] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:19:31] Checking that feature data includes a 'Split' column
+INFO [2025-12-02 14:19:31] Checking that feature data includes a 'Flag' column
+INFO [2025-12-02 14:32:35] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:32:35] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:33:15] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:33:15] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:34:16] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:34:16] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:35:01] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:35:01] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:38:35] 
+5% of features flagged for low quality
+INFO [2025-12-02 14:39:01] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:39:01] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:42:47] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:42:47] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:50:28] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 14:50:28] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 15:02:01] Corner detected correctly at row 5, column O
+INFO [2025-12-02 15:02:01] 
+Extracting sample information from rows 1 to 5 and columns P to AV
+INFO [2025-12-02 15:02:01] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-02 15:02:01] Naming the last column of sample information "Datafile"
+INFO [2025-12-02 15:02:01] 
+Extracting feature information from rows 6 to 10937 and columns A to O
+INFO [2025-12-02 15:02:01] 
+Extracting feature abundances from rows 6 to 10937 and columns P to AV
+INFO [2025-12-02 15:02:01] QC column generated from rows containing 'QC'
+INFO [2025-12-02 15:02:01] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-02 15:02:01] Pheno data was cleaned
+INFO [2025-12-02 15:02:01] Initializing 'Flag' column with unflagged features
+INFO [2025-12-02 15:02:01] Creating Split column from Column, Ion Mode
+INFO [2025-12-02 15:02:01] Feature_ID column not found, creating feature IDs
+INFO [2025-12-02 15:02:01] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 15:02:01] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 15:02:01] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-02 15:02:02] Feature data was cleaned
+INFO [2025-12-02 15:02:02] 
+Checking sample information
+INFO [2025-12-02 15:02:02] Checking 'Injection_order' column in feature data
+INFO [2025-12-02 15:02:02] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-02 15:02:02] Checking 'QC' column in feature data
+INFO [2025-12-02 15:02:02] Checking that feature abundances only contain numeric values
+INFO [2025-12-02 15:02:06] 
+Checking feature information
+INFO [2025-12-02 15:02:06] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-02 15:02:06] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-02 15:02:06] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 15:02:06] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 15:02:06] Checking that feature data includes a 'Split' column
+INFO [2025-12-02 15:02:06] Checking that feature data includes a 'Flag' column
+INFO [2025-12-02 15:02:23] 
+8% of features flagged for low detection rate
+INFO [2025-12-02 15:02:23] 
+7% of features flagged for Low QC detection rate
+INFO [2025-12-02 15:02:27] Starting drift correction
+INFO [2025-12-02 15:03:12] Recomputing quality metrics for drift corrected data
+INFO [2025-12-02 15:03:15] Drift correction performed
+INFO [2025-12-02 15:03:15] Inspecting drift correction results
+INFO [2025-12-02 15:03:15] Original quality metrics missing, recomputing
+INFO [2025-12-02 15:03:16] Drift correction results inspected: Drift_corrected: 60%,  Missing_QCS: 40%
+INFO [2025-12-02 15:03:16] 
+16% of features flagged for low quality
+INFO [2025-12-02 15:04:14] Starting drift correction
+INFO [2025-12-02 15:04:55] Recomputing quality metrics for drift corrected data
+INFO [2025-12-02 15:04:58] Drift correction performed
+INFO [2025-12-02 15:04:58] Inspecting drift correction results
+INFO [2025-12-02 15:04:58] Original quality metrics missing, recomputing
+INFO [2025-12-02 15:04:59] Drift correction results inspected: Drift_corrected: 30%,  Missing_QCS: 70%
+INFO [2025-12-02 15:05:00] Starting drift correction
+INFO [2025-12-02 15:05:44] Recomputing quality metrics for drift corrected data
+INFO [2025-12-02 15:05:47] Drift correction performed
+INFO [2025-12-02 15:05:47] Inspecting drift correction results
+INFO [2025-12-02 15:05:47] Original quality metrics missing, recomputing
+INFO [2025-12-02 15:05:49] Drift correction results inspected: Drift_corrected: 45%,  Missing_QCS: 55%
+INFO [2025-12-02 15:05:49] Starting drift correction
+INFO [2025-12-02 15:06:39] Recomputing quality metrics for drift corrected data
+INFO [2025-12-02 15:06:42] Drift correction performed
+INFO [2025-12-02 15:06:42] Inspecting drift correction results
+INFO [2025-12-02 15:06:42] Original quality metrics missing, recomputing
+INFO [2025-12-02 15:06:44] Drift correction results inspected: Drift_corrected: 54%,  Missing_QCS: 46%
+INFO [2025-12-02 15:06:44] 
+54% of features flagged for low quality
+INFO [2025-12-02 15:06:44] 
+44% of features flagged for low quality
+INFO [2025-12-02 15:06:44] 
+43% of features flagged for low quality
+INFO [2025-12-02 15:29:13] 
+5% of features flagged for low quality
+INFO [2025-12-02 15:29:22] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 15:29:22] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 15:29:22] 
+Starting feature clustering at 2025-12-02 15:29:22.436392
+INFO [2025-12-02 15:29:22] Finding connections between features in Rtx-5_EI
+INFO [2025-12-02 15:29:37] Found 0 connections in Rtx-5_EI
+INFO [2025-12-02 15:29:37] Found 0 connections
+INFO [2025-12-02 15:29:37] Found 0 clusters of 2 or more features, clustering finished at 2025-12-02 15:29:37.239129
+INFO [2025-12-02 15:29:38] Clusters compressed, left with 8979 features
+INFO [2025-12-02 15:51:46] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 15:51:46] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 15:51:47] 
+Starting feature clustering at 2025-12-02 15:51:47.16587
+INFO [2025-12-02 15:51:47] Finding connections between features in Rtx-5_EI
+INFO [2025-12-02 15:52:02] Found 0 connections in Rtx-5_EI
+INFO [2025-12-02 15:52:02] Found 0 connections
+INFO [2025-12-02 15:52:02] Found 0 clusters of 2 or more features, clustering finished at 2025-12-02 15:52:02.231734
+INFO [2025-12-02 15:52:03] Clusters compressed, left with 8979 features
+INFO [2025-12-02 15:53:50] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 15:53:50] Identified m/z column mass and retention time column RT
+INFO [2025-12-02 15:53:50] 
+Starting feature clustering at 2025-12-02 15:53:50.864024
+INFO [2025-12-02 15:53:50] Finding connections between features in Rtx-5_EI
+INFO [2025-12-02 15:54:03] Found 0 connections in Rtx-5_EI
+INFO [2025-12-02 15:54:03] Found 0 connections
+INFO [2025-12-02 15:54:03] Found 0 clusters of 2 or more features, clustering finished at 2025-12-02 15:54:03.147659
+INFO [2025-12-02 15:54:04] Clusters compressed, left with 8979 features
+INFO [2025-12-02 16:15:05] Starting PQN normalization
+INFO [2025-12-02 16:15:06] Using median of qc samples as reference spectrum
+INFO [2025-12-07 22:25:11] Starting logging
+INFO [2025-12-07 22:25:16] Corner detected correctly at row 5, column O
+INFO [2025-12-07 22:25:16] 
+Extracting sample information from rows 1 to 5 and columns P to AV
+INFO [2025-12-07 22:25:16] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-07 22:25:16] Naming the last column of sample information "Datafile"
+INFO [2025-12-07 22:25:16] 
+Extracting feature information from rows 6 to 10937 and columns A to O
+INFO [2025-12-07 22:25:16] 
+Extracting feature abundances from rows 6 to 10937 and columns P to AV
+INFO [2025-12-07 22:25:16] QC column generated from rows containing 'QC'
+INFO [2025-12-07 22:25:16] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-07 22:25:16] Pheno data was cleaned
+INFO [2025-12-07 22:25:17] Initializing 'Flag' column with unflagged features
+INFO [2025-12-07 22:25:17] Creating Split column from Column, Ion Mode
+INFO [2025-12-07 22:25:17] Feature_ID column not found, creating feature IDs
+INFO [2025-12-07 22:25:17] Identified m/z column mass and retention time column RT
+INFO [2025-12-07 22:25:17] Identified m/z column mass and retention time column RT
+INFO [2025-12-07 22:25:17] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-07 22:25:17] Feature data was cleaned
+INFO [2025-12-07 22:25:17] 
+Checking sample information
+INFO [2025-12-07 22:25:17] Checking 'Injection_order' column in feature data
+INFO [2025-12-07 22:25:17] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-07 22:25:17] Checking 'QC' column in feature data
+INFO [2025-12-07 22:25:17] Checking that feature abundances only contain numeric values
+INFO [2025-12-07 22:25:18] 
+Checking feature information
+INFO [2025-12-07 22:25:18] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-07 22:25:18] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-07 22:25:18] Identified m/z column mass and retention time column RT
+INFO [2025-12-07 22:25:18] Identified m/z column mass and retention time column RT
+INFO [2025-12-07 22:25:18] Checking that feature data includes a 'Split' column
+INFO [2025-12-07 22:25:18] Checking that feature data includes a 'Flag' column
+INFO [2025-12-07 22:25:33] 
+8% of features flagged for low detection rate
+INFO [2025-12-07 22:25:34] 
+7% of features flagged for Low QC detection rate
+INFO [2025-12-07 22:25:37] Starting drift correction
+INFO [2025-12-07 22:27:09] Recomputing quality metrics for drift corrected data
+INFO [2025-12-07 22:27:19] Drift correction performed
+INFO [2025-12-07 22:27:19] Inspecting drift correction results
+INFO [2025-12-07 22:27:19] Original quality metrics missing, recomputing
+INFO [2025-12-07 22:27:28] Drift correction results inspected: Drift_corrected: 60%,  Missing_QCS: 40%
+INFO [2025-12-07 22:27:28] 
+16% of features flagged for low quality
+INFO [2025-12-07 22:28:36] Starting drift correction
+INFO [2025-12-07 22:30:51] Recomputing quality metrics for drift corrected data
+INFO [2025-12-07 22:30:59] Drift correction performed
+INFO [2025-12-07 22:30:59] Inspecting drift correction results
+INFO [2025-12-07 22:30:59] Original quality metrics missing, recomputing
+INFO [2025-12-07 22:31:06] Drift correction results inspected: Drift_corrected: 30%,  Missing_QCS: 70%
+INFO [2025-12-07 22:31:07] Starting drift correction
+INFO [2025-12-07 22:33:29] Recomputing quality metrics for drift corrected data
+INFO [2025-12-07 22:33:39] Drift correction performed
+INFO [2025-12-07 22:33:39] Inspecting drift correction results
+INFO [2025-12-07 22:33:39] Original quality metrics missing, recomputing
+INFO [2025-12-07 22:33:47] Drift correction results inspected: Drift_corrected: 45%,  Missing_QCS: 55%
+INFO [2025-12-07 22:33:48] Starting drift correction
+INFO [2025-12-07 22:36:05] Recomputing quality metrics for drift corrected data
+INFO [2025-12-07 22:36:17] Drift correction performed
+INFO [2025-12-07 22:36:17] Inspecting drift correction results
+INFO [2025-12-07 22:36:17] Original quality metrics missing, recomputing
+INFO [2025-12-07 22:36:24] Drift correction results inspected: Drift_corrected: 54%,  Missing_QCS: 46%
+INFO [2025-12-07 22:36:25] 
+54% of features flagged for low quality
+INFO [2025-12-07 22:36:25] 
+44% of features flagged for low quality
+INFO [2025-12-07 22:36:26] 
+43% of features flagged for low quality
+INFO [2025-12-07 23:10:15] 
+5% of features flagged for low quality
+INFO [2025-12-07 23:10:20] Identified m/z column mass and retention time column RT
+INFO [2025-12-07 23:10:20] Identified m/z column mass and retention time column RT
+INFO [2025-12-07 23:10:20] 
+Starting feature clustering at 2025-12-07 23:10:20.966058
+INFO [2025-12-07 23:10:20] Finding connections between features in Rtx-5_EI
+INFO [2025-12-07 23:10:33] Found 0 connections in Rtx-5_EI
+INFO [2025-12-07 23:10:33] Found 0 connections
+INFO [2025-12-07 23:10:33] Found 0 clusters of 2 or more features, clustering finished at 2025-12-07 23:10:33.174533
+INFO [2025-12-07 23:10:33] Clusters compressed, left with 8979 features
+INFO [2025-12-07 23:11:00] Starting PQN normalization
+INFO [2025-12-07 23:11:01] Using median of qc samples as reference spectrum
+INFO [2025-12-08 15:09:20] Starting logging
+INFO [2025-12-08 15:09:24] Corner detected correctly at row 5, column O
+INFO [2025-12-08 15:09:24] 
+Extracting sample information from rows 1 to 5 and columns P to AV
+INFO [2025-12-08 15:09:24] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-08 15:09:24] Naming the last column of sample information "Datafile"
+INFO [2025-12-08 15:09:24] 
+Extracting feature information from rows 6 to 10937 and columns A to O
+INFO [2025-12-08 15:09:24] 
+Extracting feature abundances from rows 6 to 10937 and columns P to AV
+INFO [2025-12-08 15:09:24] QC column generated from rows containing 'QC'
+INFO [2025-12-08 15:09:24] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-08 15:09:24] Pheno data was cleaned
+INFO [2025-12-08 15:09:25] Initializing 'Flag' column with unflagged features
+INFO [2025-12-08 15:09:25] Creating Split column from Column, Ion Mode
+INFO [2025-12-08 15:09:25] Feature_ID column not found, creating feature IDs
+INFO [2025-12-08 15:09:25] Identified m/z column mass and retention time column RT
+INFO [2025-12-08 15:09:25] Identified m/z column mass and retention time column RT
+INFO [2025-12-08 15:09:25] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-08 15:09:25] Feature data was cleaned
+INFO [2025-12-08 15:09:25] 
+Checking sample information
+INFO [2025-12-08 15:09:25] Checking 'Injection_order' column in feature data
+INFO [2025-12-08 15:09:25] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-08 15:09:25] Checking 'QC' column in feature data
+INFO [2025-12-08 15:09:25] Checking that feature abundances only contain numeric values
+INFO [2025-12-08 15:09:25] 
+Checking feature information
+INFO [2025-12-08 15:09:25] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-08 15:09:25] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-08 15:09:25] Identified m/z column mass and retention time column RT
+INFO [2025-12-08 15:09:25] Identified m/z column mass and retention time column RT
+INFO [2025-12-08 15:09:25] Checking that feature data includes a 'Split' column
+INFO [2025-12-08 15:09:25] Checking that feature data includes a 'Flag' column
+INFO [2025-12-08 15:09:34] 
+8% of features flagged for low detection rate
+INFO [2025-12-08 15:09:35] 
+7% of features flagged for Low QC detection rate
+INFO [2025-12-08 15:09:38] Starting drift correction
+INFO [2025-12-08 15:10:30] Recomputing quality metrics for drift corrected data
+INFO [2025-12-08 15:10:34] Drift correction performed
+INFO [2025-12-08 15:10:34] Inspecting drift correction results
+INFO [2025-12-08 15:10:34] Original quality metrics missing, recomputing
+INFO [2025-12-08 15:10:36] Drift correction results inspected: Drift_corrected: 60%,  Missing_QCS: 40%
+INFO [2025-12-08 15:10:36] 
+16% of features flagged for low quality
+INFO [2025-12-08 15:11:34] Starting drift correction
+INFO [2025-12-08 15:12:25] Recomputing quality metrics for drift corrected data
+INFO [2025-12-08 15:12:28] Drift correction performed
+INFO [2025-12-08 15:12:28] Inspecting drift correction results
+INFO [2025-12-08 15:12:28] Original quality metrics missing, recomputing
+INFO [2025-12-08 15:12:31] Drift correction results inspected: Drift_corrected: 30%,  Missing_QCS: 70%
+INFO [2025-12-08 15:12:31] Starting drift correction
+INFO [2025-12-08 15:13:23] Recomputing quality metrics for drift corrected data
+INFO [2025-12-08 15:13:26] Drift correction performed
+INFO [2025-12-08 15:13:26] Inspecting drift correction results
+INFO [2025-12-08 15:13:26] Original quality metrics missing, recomputing
+INFO [2025-12-08 15:13:29] Drift correction results inspected: Drift_corrected: 45%,  Missing_QCS: 55%
+INFO [2025-12-08 15:13:29] Starting drift correction
+INFO [2025-12-08 15:14:20] Recomputing quality metrics for drift corrected data
+INFO [2025-12-08 15:14:24] Drift correction performed
+INFO [2025-12-08 15:14:24] Inspecting drift correction results
+INFO [2025-12-08 15:14:24] Original quality metrics missing, recomputing
+INFO [2025-12-08 15:14:26] Drift correction results inspected: Drift_corrected: 54%,  Missing_QCS: 46%
+INFO [2025-12-08 15:14:27] 
+54% of features flagged for low quality
+INFO [2025-12-08 15:14:27] 
+44% of features flagged for low quality
+INFO [2025-12-08 15:14:27] 
+43% of features flagged for low quality
+INFO [2025-12-08 16:08:12] 
+5% of features flagged for low quality
+INFO [2025-12-08 16:08:16] Identified m/z column mass and retention time column RT
+INFO [2025-12-08 16:08:16] Identified m/z column mass and retention time column RT
+INFO [2025-12-08 16:08:16] 
+Starting feature clustering at 2025-12-08 16:08:16.670452
+INFO [2025-12-08 16:08:16] Finding connections between features in Rtx-5_EI
+INFO [2025-12-08 16:08:30] Found 0 connections in Rtx-5_EI
+INFO [2025-12-08 16:08:30] Found 0 connections
+INFO [2025-12-08 16:08:30] Found 0 clusters of 2 or more features, clustering finished at 2025-12-08 16:08:30.643803
+INFO [2025-12-08 16:08:31] Clusters compressed, left with 8979 features
+INFO [2025-12-08 16:08:45] Starting PQN normalization
+INFO [2025-12-08 16:08:45] Using median of qc samples as reference spectrum
+INFO [2025-12-08 18:06:17] Starting logging
+INFO [2025-12-08 18:14:39] Starting logging
+INFO [2025-12-08 18:19:17] Starting logging
+INFO [2025-12-08 18:19:23] Corner detected correctly at row 5, column O
+INFO [2025-12-08 18:19:23] 
+Extracting sample information from rows 1 to 5 and columns P to AV
+INFO [2025-12-08 18:19:23] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-08 18:19:23] Naming the last column of sample information "Datafile"
+INFO [2025-12-08 18:19:23] 
+Extracting feature information from rows 6 to 10937 and columns A to O
+INFO [2025-12-08 18:19:23] 
+Extracting feature abundances from rows 6 to 10937 and columns P to AV
+INFO [2025-12-08 18:19:23] QC column generated from rows containing 'QC'
+INFO [2025-12-08 18:19:23] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-08 18:19:23] Pheno data was cleaned
+INFO [2025-12-08 18:19:23] Initializing 'Flag' column with unflagged features
+INFO [2025-12-08 18:19:23] Creating Split column from Column, Ion Mode
+INFO [2025-12-08 18:19:23] Feature_ID column not found, creating feature IDs
+INFO [2025-12-08 18:19:23] Identified m/z column mass and retention time column RT
+INFO [2025-12-08 18:19:23] Identified m/z column mass and retention time column RT
+INFO [2025-12-08 18:19:23] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-08 18:19:24] Feature data was cleaned
+INFO [2025-12-08 18:19:24] 
+Checking sample information
+INFO [2025-12-08 18:19:24] Checking 'Injection_order' column in feature data
+INFO [2025-12-08 18:19:24] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-08 18:19:24] Checking 'QC' column in feature data
+INFO [2025-12-08 18:19:24] Checking that feature abundances only contain numeric values
+INFO [2025-12-08 18:19:24] 
+Checking feature information
+INFO [2025-12-08 18:19:24] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-08 18:19:24] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-08 18:19:24] Identified m/z column mass and retention time column RT
+INFO [2025-12-08 18:19:24] Identified m/z column mass and retention time column RT
+INFO [2025-12-08 18:19:24] Checking that feature data includes a 'Split' column
+INFO [2025-12-08 18:19:24] Checking that feature data includes a 'Flag' column
+INFO [2025-12-08 18:19:34] 
+8% of features flagged for low detection rate
+INFO [2025-12-08 18:19:34] 
+7% of features flagged for Low QC detection rate
+INFO [2025-12-08 18:19:45] Starting drift correction
+INFO [2025-12-08 18:20:36] Recomputing quality metrics for drift corrected data
+INFO [2025-12-08 18:20:39] Drift correction performed
+INFO [2025-12-08 18:20:39] Inspecting drift correction results
+INFO [2025-12-08 18:20:39] Original quality metrics missing, recomputing
+INFO [2025-12-08 18:20:42] Drift correction results inspected: Drift_corrected: 60%,  Missing_QCS: 40%
+INFO [2025-12-08 18:20:42] 
+16% of features flagged for low quality
+INFO [2025-12-08 18:21:47] Starting drift correction
+INFO [2025-12-08 18:22:35] Recomputing quality metrics for drift corrected data
+INFO [2025-12-08 18:22:37] Drift correction performed
+INFO [2025-12-08 18:22:37] Inspecting drift correction results
+INFO [2025-12-08 18:22:37] Original quality metrics missing, recomputing
+INFO [2025-12-08 18:22:40] Drift correction results inspected: Drift_corrected: 30%,  Missing_QCS: 70%
+INFO [2025-12-08 18:22:40] Starting drift correction
+INFO [2025-12-08 18:23:28] Recomputing quality metrics for drift corrected data
+INFO [2025-12-08 18:23:31] Drift correction performed
+INFO [2025-12-08 18:23:31] Inspecting drift correction results
+INFO [2025-12-08 18:23:31] Original quality metrics missing, recomputing
+INFO [2025-12-08 18:23:34] Drift correction results inspected: Drift_corrected: 45%,  Missing_QCS: 55%
+INFO [2025-12-08 18:23:34] Starting drift correction
+INFO [2025-12-08 18:24:23] Recomputing quality metrics for drift corrected data
+INFO [2025-12-08 18:24:25] Drift correction performed
+INFO [2025-12-08 18:24:25] Inspecting drift correction results
+INFO [2025-12-08 18:24:25] Original quality metrics missing, recomputing
+INFO [2025-12-08 18:24:28] Drift correction results inspected: Drift_corrected: 54%,  Missing_QCS: 46%
+INFO [2025-12-08 18:24:28] 
+54% of features flagged for low quality
+INFO [2025-12-08 18:24:28] 
+44% of features flagged for low quality
+INFO [2025-12-08 18:24:28] 
+43% of features flagged for low quality
+INFO [2025-12-08 18:50:36] 
+5% of features flagged for low quality
+INFO [2025-12-08 18:50:43] Identified m/z column mass and retention time column RT
+INFO [2025-12-08 18:50:43] Identified m/z column mass and retention time column RT
+INFO [2025-12-08 18:50:43] 
+Starting feature clustering at 2025-12-08 18:50:43.682322
+INFO [2025-12-08 18:50:43] Finding connections between features in Rtx-5_EI
+INFO [2025-12-08 18:50:56] Found 0 connections in Rtx-5_EI
+INFO [2025-12-08 18:50:56] Found 0 connections
+INFO [2025-12-08 18:50:56] Found 0 clusters of 2 or more features, clustering finished at 2025-12-08 18:50:56.778997
+INFO [2025-12-08 18:50:57] Clusters compressed, left with 8979 features
+INFO [2025-12-08 18:51:12] Starting PQN normalization
+INFO [2025-12-08 18:51:13] Using median of qc samples as reference spectrum
+INFO [2025-12-08 19:07:06] Starting logging
+INFO [2025-12-08 19:07:12] Corner detected correctly at row 5, column O
+INFO [2025-12-08 19:07:12] 
+Extracting sample information from rows 1 to 5 and columns P to AV
+INFO [2025-12-08 19:07:12] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-08 19:07:12] Naming the last column of sample information "Datafile"
+INFO [2025-12-08 19:07:12] 
+Extracting feature information from rows 6 to 10937 and columns A to O
+INFO [2025-12-08 19:07:12] 
+Extracting feature abundances from rows 6 to 10937 and columns P to AV
+INFO [2025-12-08 19:07:12] QC column generated from rows containing 'QC'
+INFO [2025-12-08 19:07:12] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-08 19:07:12] Pheno data was cleaned
+INFO [2025-12-08 19:07:13] Initializing 'Flag' column with unflagged features
+INFO [2025-12-08 19:07:13] Creating Split column from Column, Ion Mode
+INFO [2025-12-08 19:07:13] Feature_ID column not found, creating feature IDs
+INFO [2025-12-08 19:07:13] Identified m/z column mass and retention time column RT
+INFO [2025-12-08 19:07:13] Identified m/z column mass and retention time column RT
+INFO [2025-12-08 19:07:13] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-08 19:07:13] Feature data was cleaned
+INFO [2025-12-08 19:07:13] 
+Checking sample information
+INFO [2025-12-08 19:07:13] Checking 'Injection_order' column in feature data
+INFO [2025-12-08 19:07:13] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-08 19:07:13] Checking 'QC' column in feature data
+INFO [2025-12-08 19:07:13] Checking that feature abundances only contain numeric values
+INFO [2025-12-08 19:07:13] 
+Checking feature information
+INFO [2025-12-08 19:07:13] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-08 19:07:13] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-08 19:07:13] Identified m/z column mass and retention time column RT
+INFO [2025-12-08 19:07:13] Identified m/z column mass and retention time column RT
+INFO [2025-12-08 19:07:13] Checking that feature data includes a 'Split' column
+INFO [2025-12-08 19:07:13] Checking that feature data includes a 'Flag' column
+INFO [2025-12-08 19:09:14] 
+8% of features flagged for low detection rate
+INFO [2025-12-08 19:09:14] 
+7% of features flagged for Low QC detection rate
+INFO [2025-12-08 19:09:22] Starting drift correction
+INFO [2025-12-08 19:10:15] Recomputing quality metrics for drift corrected data
+INFO [2025-12-08 19:10:19] Drift correction performed
+INFO [2025-12-08 19:10:19] Inspecting drift correction results
+INFO [2025-12-08 19:10:19] Original quality metrics missing, recomputing
+INFO [2025-12-08 19:10:21] Drift correction results inspected: Drift_corrected: 60%,  Missing_QCS: 40%
+INFO [2025-12-08 19:10:21] 
+16% of features flagged for low quality
+INFO [2025-12-08 19:10:52] Starting drift correction
+INFO [2025-12-08 19:11:39] Recomputing quality metrics for drift corrected data
+INFO [2025-12-08 19:11:42] Drift correction performed
+INFO [2025-12-08 19:11:42] Inspecting drift correction results
+INFO [2025-12-08 19:11:42] Original quality metrics missing, recomputing
+INFO [2025-12-08 19:11:44] Drift correction results inspected: Drift_corrected: 30%,  Missing_QCS: 70%
+INFO [2025-12-08 19:11:44] Starting drift correction
+INFO [2025-12-08 19:12:33] Recomputing quality metrics for drift corrected data
+INFO [2025-12-08 19:12:35] Drift correction performed
+INFO [2025-12-08 19:12:35] Inspecting drift correction results
+INFO [2025-12-08 19:12:35] Original quality metrics missing, recomputing
+INFO [2025-12-08 19:12:38] Drift correction results inspected: Drift_corrected: 45%,  Missing_QCS: 55%
+INFO [2025-12-08 19:12:38] Starting drift correction
+INFO [2025-12-08 19:13:26] Recomputing quality metrics for drift corrected data
+INFO [2025-12-08 19:13:29] Drift correction performed
+INFO [2025-12-08 19:13:29] Inspecting drift correction results
+INFO [2025-12-08 19:13:29] Original quality metrics missing, recomputing
+INFO [2025-12-08 19:13:31] Drift correction results inspected: Drift_corrected: 54%,  Missing_QCS: 46%
+INFO [2025-12-08 19:13:32] 
+54% of features flagged for low quality
+INFO [2025-12-08 19:13:32] 
+44% of features flagged for low quality
+INFO [2025-12-08 19:13:32] 
+43% of features flagged for low quality
+INFO [2025-12-08 19:51:09] 
+5% of features flagged for low quality
+INFO [2025-12-08 19:51:15] Identified m/z column mass and retention time column RT
+INFO [2025-12-08 19:51:15] Identified m/z column mass and retention time column RT
+INFO [2025-12-08 19:51:15] 
+Starting feature clustering at 2025-12-08 19:51:15.719317
+INFO [2025-12-08 19:51:15] Finding connections between features in Rtx-5_EI
+INFO [2025-12-08 19:51:29] Found 0 connections in Rtx-5_EI
+INFO [2025-12-08 19:51:29] Found 0 connections
+INFO [2025-12-08 19:51:29] Found 0 clusters of 2 or more features, clustering finished at 2025-12-08 19:51:29.505739
+INFO [2025-12-08 19:51:30] Clusters compressed, left with 8979 features
+INFO [2025-12-08 19:51:42] Starting PQN normalization
+INFO [2025-12-08 19:51:43] Using median of qc samples as reference spectrum
+INFO [2025-12-16 17:27:25] Starting logging
+INFO [2025-12-16 17:29:13] Corner detected correctly at row 6, column P
+INFO [2025-12-16 17:29:13] 
+Extracting sample information from rows 1 to 6 and columns Q to AW
+INFO [2025-12-16 17:29:13] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-16 17:29:13] Naming the last column of sample information "Datafile"
+INFO [2025-12-16 17:29:13] 
+Extracting feature information from rows 7 to 10939 and columns A to P
+INFO [2025-12-16 17:29:13] 
+Extracting feature abundances from rows 7 to 10939 and columns Q to AW
+INFO [2025-12-16 17:29:13] QC column generated from rows containing 'QC'
+INFO [2025-12-16 17:29:13] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-16 17:29:13] Pheno data was cleaned
+INFO [2025-12-16 17:29:14] Initializing 'Flag' column with unflagged features
+INFO [2025-12-16 17:29:14] Creating Split column from Column, Ion Mode
+INFO [2025-12-16 17:29:14] Feature_ID column not found, creating feature IDs
+INFO [2025-12-16 17:29:14] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:29:14] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:29:14] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-16 17:29:14] Feature data was cleaned
+INFO [2025-12-16 17:29:14] 
+Checking sample information
+INFO [2025-12-16 17:29:14] Checking 'Injection_order' column in feature data
+INFO [2025-12-16 17:29:14] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-16 17:29:14] Checking 'QC' column in feature data
+INFO [2025-12-16 17:29:14] Checking that feature abundances only contain numeric values
+INFO [2025-12-16 17:29:15] 
+Checking feature information
+INFO [2025-12-16 17:29:15] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-16 17:29:15] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-16 17:29:15] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:29:15] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:34:58] Corner detected correctly at row 6, column P
+INFO [2025-12-16 17:34:58] 
+Extracting sample information from rows 1 to 6 and columns Q to AW
+INFO [2025-12-16 17:34:58] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-16 17:34:58] Naming the last column of sample information "Datafile"
+INFO [2025-12-16 17:34:58] 
+Extracting feature information from rows 7 to 10939 and columns A to P
+INFO [2025-12-16 17:34:58] 
+Extracting feature abundances from rows 7 to 10939 and columns Q to AW
+INFO [2025-12-16 17:34:59] QC column generated from rows containing 'QC'
+INFO [2025-12-16 17:34:59] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-16 17:34:59] Pheno data was cleaned
+INFO [2025-12-16 17:34:59] Initializing 'Flag' column with unflagged features
+INFO [2025-12-16 17:34:59] Creating Split column from Column, Ion Mode
+INFO [2025-12-16 17:34:59] Feature_ID column not found, creating feature IDs
+INFO [2025-12-16 17:34:59] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:34:59] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:34:59] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-16 17:34:59] Feature data was cleaned
+INFO [2025-12-16 17:34:59] 
+Checking sample information
+INFO [2025-12-16 17:34:59] Checking 'Injection_order' column in feature data
+INFO [2025-12-16 17:34:59] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-16 17:34:59] Checking 'QC' column in feature data
+INFO [2025-12-16 17:34:59] Checking that feature abundances only contain numeric values
+INFO [2025-12-16 17:35:00] 
+Checking feature information
+INFO [2025-12-16 17:35:00] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-16 17:35:00] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-16 17:35:00] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:35:00] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:35:33] Corner detected correctly at row 6, column P
+INFO [2025-12-16 17:35:33] 
+Extracting sample information from rows 1 to 6 and columns Q to AW
+INFO [2025-12-16 17:35:33] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-16 17:35:33] Naming the last column of sample information "Datafile"
+INFO [2025-12-16 17:35:33] 
+Extracting feature information from rows 7 to 10939 and columns A to P
+INFO [2025-12-16 17:35:33] 
+Extracting feature abundances from rows 7 to 10939 and columns Q to AW
+INFO [2025-12-16 17:35:33] QC column generated from rows containing 'QC'
+INFO [2025-12-16 17:35:33] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-16 17:35:33] Pheno data was cleaned
+INFO [2025-12-16 17:35:33] Initializing 'Flag' column with unflagged features
+INFO [2025-12-16 17:35:33] Creating Split column from Column, Ion Mode
+INFO [2025-12-16 17:35:33] Feature_ID column not found, creating feature IDs
+INFO [2025-12-16 17:35:33] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:35:33] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:35:33] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-16 17:35:34] Feature data was cleaned
+INFO [2025-12-16 17:35:34] 
+Checking sample information
+INFO [2025-12-16 17:35:34] Checking 'Injection_order' column in feature data
+INFO [2025-12-16 17:35:34] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-16 17:35:34] Checking 'QC' column in feature data
+INFO [2025-12-16 17:35:34] Checking that feature abundances only contain numeric values
+INFO [2025-12-16 17:35:34] 
+Checking feature information
+INFO [2025-12-16 17:35:34] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-16 17:35:34] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-16 17:35:34] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:35:34] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:36:54] Corner detected correctly at row 6, column P
+INFO [2025-12-16 17:36:54] 
+Extracting sample information from rows 1 to 6 and columns Q to AW
+INFO [2025-12-16 17:36:54] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-16 17:36:54] Naming the last column of sample information "Datafile"
+INFO [2025-12-16 17:36:54] 
+Extracting feature information from rows 7 to 10939 and columns A to P
+INFO [2025-12-16 17:36:54] 
+Extracting feature abundances from rows 7 to 10939 and columns Q to AW
+INFO [2025-12-16 17:36:54] QC column generated from rows containing 'QC'
+INFO [2025-12-16 17:36:54] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-16 17:36:54] Pheno data was cleaned
+INFO [2025-12-16 17:36:55] Initializing 'Flag' column with unflagged features
+INFO [2025-12-16 17:37:38] Corner detected correctly at row 6, column P
+INFO [2025-12-16 17:37:38] 
+Extracting sample information from rows 1 to 6 and columns Q to AW
+INFO [2025-12-16 17:37:38] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-16 17:37:38] Naming the last column of sample information "Datafile"
+INFO [2025-12-16 17:37:38] 
+Extracting feature information from rows 7 to 10939 and columns A to P
+INFO [2025-12-16 17:37:38] 
+Extracting feature abundances from rows 7 to 10939 and columns Q to AW
+INFO [2025-12-16 17:37:38] QC column generated from rows containing 'QC'
+INFO [2025-12-16 17:37:38] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-16 17:37:38] Pheno data was cleaned
+INFO [2025-12-16 17:37:39] Initializing 'Flag' column with unflagged features
+INFO [2025-12-16 17:37:39] Creating Split column from Column, Ion Mode
+INFO [2025-12-16 17:37:39] Feature_ID column not found, creating feature IDs
+INFO [2025-12-16 17:37:39] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:37:39] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:37:39] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-16 17:37:39] Feature data was cleaned
+INFO [2025-12-16 17:37:39] 
+Checking sample information
+INFO [2025-12-16 17:37:39] Checking 'Injection_order' column in feature data
+INFO [2025-12-16 17:37:39] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-16 17:37:39] Checking 'QC' column in feature data
+INFO [2025-12-16 17:37:39] Checking that feature abundances only contain numeric values
+INFO [2025-12-16 17:37:39] 
+Checking feature information
+INFO [2025-12-16 17:37:39] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-16 17:37:39] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-16 17:37:39] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:37:39] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:37:50] Corner detected correctly at row 6, column P
+INFO [2025-12-16 17:37:50] 
+Extracting sample information from rows 1 to 6 and columns Q to AW
+INFO [2025-12-16 17:37:50] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-16 17:37:50] Naming the last column of sample information "Datafile"
+INFO [2025-12-16 17:37:50] 
+Extracting feature information from rows 7 to 10939 and columns A to P
+INFO [2025-12-16 17:37:50] 
+Extracting feature abundances from rows 7 to 10939 and columns Q to AW
+INFO [2025-12-16 17:59:51] Corner detected correctly at row 6, column P
+INFO [2025-12-16 17:59:51] 
+Extracting sample information from rows 1 to 6 and columns Q to AW
+INFO [2025-12-16 17:59:51] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-16 17:59:51] Naming the last column of sample information "Datafile"
+INFO [2025-12-16 17:59:51] 
+Extracting feature information from rows 7 to 10939 and columns A to P
+INFO [2025-12-16 17:59:51] 
+Extracting feature abundances from rows 7 to 10939 and columns Q to AW
+INFO [2025-12-16 17:59:51] QC column generated from rows containing 'QC'
+INFO [2025-12-16 17:59:51] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-16 17:59:51] Pheno data was cleaned
+INFO [2025-12-16 17:59:51] Initializing 'Flag' column with unflagged features
+INFO [2025-12-16 17:59:51] Creating Split column from Column, Ion Mode
+INFO [2025-12-16 17:59:51] Feature_ID column not found, creating feature IDs
+INFO [2025-12-16 17:59:51] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:59:51] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:59:51] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-16 17:59:52] Feature data was cleaned
+INFO [2025-12-16 17:59:52] 
+Checking sample information
+INFO [2025-12-16 17:59:52] Checking 'Injection_order' column in feature data
+INFO [2025-12-16 17:59:52] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-16 17:59:52] Checking 'QC' column in feature data
+INFO [2025-12-16 17:59:52] Checking that feature abundances only contain numeric values
+INFO [2025-12-16 17:59:52] 
+Checking feature information
+INFO [2025-12-16 17:59:52] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-16 17:59:52] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-16 17:59:52] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 17:59:52] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 18:01:17] Starting logging
+INFO [2025-12-16 18:01:21] Corner detected correctly at row 6, column P
+INFO [2025-12-16 18:01:21] 
+Extracting sample information from rows 1 to 6 and columns Q to AW
+INFO [2025-12-16 18:01:21] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-16 18:01:21] Naming the last column of sample information "Datafile"
+INFO [2025-12-16 18:01:21] 
+Extracting feature information from rows 7 to 10939 and columns A to P
+INFO [2025-12-16 18:01:21] 
+Extracting feature abundances from rows 7 to 10939 and columns Q to AW
+INFO [2025-12-16 18:01:22] QC column generated from rows containing 'QC'
+INFO [2025-12-16 18:01:22] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-16 18:01:22] Pheno data was cleaned
+INFO [2025-12-16 18:01:22] Initializing 'Flag' column with unflagged features
+INFO [2025-12-16 18:01:22] Creating Split column from Column, Ion Mode
+INFO [2025-12-16 18:01:22] Feature_ID column not found, creating feature IDs
+INFO [2025-12-16 18:01:22] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 18:01:22] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 18:01:22] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-16 18:01:23] Feature data was cleaned
+INFO [2025-12-16 18:01:23] 
+Checking sample information
+INFO [2025-12-16 18:01:23] Checking 'Injection_order' column in feature data
+INFO [2025-12-16 18:01:23] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-16 18:01:23] Checking 'QC' column in feature data
+INFO [2025-12-16 18:01:23] Checking that feature abundances only contain numeric values
+INFO [2025-12-16 18:01:23] 
+Checking feature information
+INFO [2025-12-16 18:01:23] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-16 18:01:23] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-16 18:01:23] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 18:01:23] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 18:01:23] Checking that feature data includes a 'Split' column
+INFO [2025-12-16 18:01:23] Checking that feature data includes a 'Flag' column
+INFO [2025-12-16 18:03:15] Corner detected correctly at row 6, column P
+INFO [2025-12-16 18:03:15] 
+Extracting sample information from rows 1 to 6 and columns Q to AW
+INFO [2025-12-16 18:03:15] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-16 18:03:15] Naming the last column of sample information "Datafile"
+INFO [2025-12-16 18:03:15] 
+Extracting feature information from rows 7 to 10939 and columns A to P
+INFO [2025-12-16 18:03:15] 
+Extracting feature abundances from rows 7 to 10939 and columns Q to AW
+INFO [2025-12-16 18:03:15] QC column generated from rows containing 'QC'
+INFO [2025-12-16 18:03:15] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-16 18:03:15] Pheno data was cleaned
+INFO [2025-12-16 18:03:16] Initializing 'Flag' column with unflagged features
+INFO [2025-12-16 18:03:16] Creating Split column from Column, Ion Mode
+INFO [2025-12-16 18:03:16] Feature_ID column not found, creating feature IDs
+INFO [2025-12-16 18:03:16] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 18:03:16] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 18:03:16] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-16 18:03:16] Feature data was cleaned
+INFO [2025-12-16 18:03:16] 
+Checking sample information
+INFO [2025-12-16 18:03:16] Checking 'Injection_order' column in feature data
+INFO [2025-12-16 18:03:17] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-16 18:03:17] Checking 'QC' column in feature data
+INFO [2025-12-16 18:03:17] Checking that feature abundances only contain numeric values
+INFO [2025-12-16 18:03:17] 
+Checking feature information
+INFO [2025-12-16 18:03:17] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-16 18:03:17] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-16 18:03:17] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 18:03:17] Identified m/z column mass and retention time column RT
+INFO [2025-12-16 18:03:17] Checking that feature data includes a 'Split' column
+INFO [2025-12-16 18:03:17] Checking that feature data includes a 'Flag' column
+INFO [2025-12-16 18:03:29] 
+8% of features flagged for low detection rate
+INFO [2025-12-16 18:03:29] 
+7% of features flagged for Low QC detection rate
+INFO [2025-12-16 18:03:33] Starting drift correction
+INFO [2025-12-16 18:04:30] Recomputing quality metrics for drift corrected data
+INFO [2025-12-16 18:04:34] Drift correction performed
+INFO [2025-12-16 18:04:34] Inspecting drift correction results
+INFO [2025-12-16 18:04:34] Original quality metrics missing, recomputing
+INFO [2025-12-16 18:04:36] Drift correction results inspected: Drift_corrected: 60%,  Missing_QCS: 40%
+INFO [2025-12-16 18:04:36] 
+16% of features flagged for low quality
+INFO [2025-12-17 11:13:53] Starting logging
+INFO [2025-12-17 11:13:59] Corner detected correctly at row 6, column P
+INFO [2025-12-17 11:13:59] 
+Extracting sample information from rows 1 to 6 and columns Q to AW
+INFO [2025-12-17 11:13:59] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-17 11:13:59] Naming the last column of sample information "Datafile"
+INFO [2025-12-17 11:13:59] 
+Extracting feature information from rows 7 to 10939 and columns A to P
+INFO [2025-12-17 11:13:59] 
+Extracting feature abundances from rows 7 to 10939 and columns Q to AW
+INFO [2025-12-17 11:13:59] QC column generated from rows containing 'QC'
+INFO [2025-12-17 11:13:59] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-17 11:13:59] Pheno data was cleaned
+INFO [2025-12-17 11:14:00] Initializing 'Flag' column with unflagged features
+INFO [2025-12-17 11:14:00] Creating Split column from Column, Ion Mode
+INFO [2025-12-17 11:14:00] Feature_ID column not found, creating feature IDs
+INFO [2025-12-17 11:14:00] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:14:00] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:14:00] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-17 11:14:00] Feature data was cleaned
+INFO [2025-12-17 11:14:00] 
+Checking sample information
+INFO [2025-12-17 11:14:00] Checking 'Injection_order' column in feature data
+INFO [2025-12-17 11:14:00] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-17 11:14:00] Checking 'QC' column in feature data
+INFO [2025-12-17 11:14:00] Checking that feature abundances only contain numeric values
+INFO [2025-12-17 11:14:01] 
+Checking feature information
+INFO [2025-12-17 11:14:01] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-17 11:14:01] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-17 11:14:01] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:14:01] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:14:01] Checking that feature data includes a 'Split' column
+INFO [2025-12-17 11:14:01] Checking that feature data includes a 'Flag' column
+INFO [2025-12-17 11:29:34] Pheno data was cleaned
+INFO [2025-12-17 11:29:34] Feature data was cleaned
+INFO [2025-12-17 11:29:49] Pheno data was cleaned
+INFO [2025-12-17 11:29:50] Feature data was cleaned
+INFO [2025-12-17 11:32:22] Pheno data was cleaned
+INFO [2025-12-17 11:32:22] Feature data was cleaned
+INFO [2025-12-17 11:35:54] Pheno data was cleaned
+INFO [2025-12-17 11:35:54] Feature data was cleaned
+INFO [2025-12-17 11:41:30] Corner detected correctly at row 6, column P
+INFO [2025-12-17 11:41:30] 
+Extracting sample information from rows 1 to 6 and columns Q to AW
+INFO [2025-12-17 11:41:30] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-17 11:41:30] Naming the last column of sample information "Datafile"
+INFO [2025-12-17 11:41:30] 
+Extracting feature information from rows 7 to 10939 and columns A to P
+INFO [2025-12-17 11:41:30] 
+Extracting feature abundances from rows 7 to 10939 and columns Q to AW
+INFO [2025-12-17 11:41:30] QC column generated from rows containing 'QC'
+INFO [2025-12-17 11:41:30] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-17 11:41:30] Pheno data was cleaned
+INFO [2025-12-17 11:41:31] Initializing 'Flag' column with unflagged features
+INFO [2025-12-17 11:41:31] Creating Split column from Column, Ion Mode
+INFO [2025-12-17 11:41:31] Feature_ID column not found, creating feature IDs
+INFO [2025-12-17 11:41:31] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:41:31] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:41:31] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-17 11:41:31] Feature data was cleaned
+INFO [2025-12-17 11:41:31] 
+Checking sample information
+INFO [2025-12-17 11:41:31] Checking 'Injection_order' column in feature data
+INFO [2025-12-17 11:41:31] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-17 11:41:31] Checking 'QC' column in feature data
+INFO [2025-12-17 11:41:31] Checking that feature abundances only contain numeric values
+INFO [2025-12-17 11:41:32] 
+Checking feature information
+INFO [2025-12-17 11:41:32] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-17 11:41:32] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-17 11:41:32] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:41:32] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:41:32] Checking that feature data includes a 'Split' column
+INFO [2025-12-17 11:41:32] Checking that feature data includes a 'Flag' column
+INFO [2025-12-17 11:41:32] Pheno data was cleaned
+INFO [2025-12-17 11:41:32] Feature data was cleaned
+INFO [2025-12-17 11:42:22] Corner detected correctly at row 6, column P
+INFO [2025-12-17 11:42:22] 
+Extracting sample information from rows 1 to 6 and columns Q to AW
+INFO [2025-12-17 11:42:22] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-17 11:42:22] Naming the last column of sample information "Datafile"
+INFO [2025-12-17 11:42:22] 
+Extracting feature information from rows 7 to 10939 and columns A to P
+INFO [2025-12-17 11:42:22] 
+Extracting feature abundances from rows 7 to 10939 and columns Q to AW
+INFO [2025-12-17 11:42:22] QC column generated from rows containing 'QC'
+INFO [2025-12-17 11:42:22] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-17 11:42:22] Pheno data was cleaned
+INFO [2025-12-17 11:42:22] Initializing 'Flag' column with unflagged features
+INFO [2025-12-17 11:42:22] Creating Split column from Column, Ion Mode
+INFO [2025-12-17 11:42:22] Feature_ID column not found, creating feature IDs
+INFO [2025-12-17 11:42:22] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:42:22] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:42:22] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-17 11:42:22] Feature data was cleaned
+INFO [2025-12-17 11:42:22] 
+Checking sample information
+INFO [2025-12-17 11:42:22] Checking 'Injection_order' column in feature data
+INFO [2025-12-17 11:42:22] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-17 11:42:22] Checking 'QC' column in feature data
+INFO [2025-12-17 11:42:22] Checking that feature abundances only contain numeric values
+INFO [2025-12-17 11:42:23] 
+Checking feature information
+INFO [2025-12-17 11:42:23] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-17 11:42:23] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-17 11:42:23] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:42:23] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:42:23] Checking that feature data includes a 'Split' column
+INFO [2025-12-17 11:42:23] Checking that feature data includes a 'Flag' column
+INFO [2025-12-17 11:43:41] Corner detected correctly at row 6, column P
+INFO [2025-12-17 11:43:41] 
+Extracting sample information from rows 1 to 6 and columns Q to AW
+INFO [2025-12-17 11:43:41] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-17 11:43:41] Naming the last column of sample information "Datafile"
+INFO [2025-12-17 11:43:41] 
+Extracting feature information from rows 7 to 10939 and columns A to P
+INFO [2025-12-17 11:43:41] 
+Extracting feature abundances from rows 7 to 10939 and columns Q to AW
+INFO [2025-12-17 11:43:41] QC column generated from rows containing 'QC'
+INFO [2025-12-17 11:43:41] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-17 11:43:41] Pheno data was cleaned
+INFO [2025-12-17 11:43:42] Initializing 'Flag' column with unflagged features
+INFO [2025-12-17 11:43:42] Creating Split column from Column, Ion Mode
+INFO [2025-12-17 11:43:42] Feature_ID column not found, creating feature IDs
+INFO [2025-12-17 11:43:42] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:43:42] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:43:42] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-17 11:43:42] Feature data was cleaned
+INFO [2025-12-17 11:43:42] 
+Checking sample information
+INFO [2025-12-17 11:43:42] Checking 'Injection_order' column in feature data
+INFO [2025-12-17 11:43:42] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-17 11:43:42] Checking 'QC' column in feature data
+INFO [2025-12-17 11:43:42] Checking that feature abundances only contain numeric values
+INFO [2025-12-17 11:43:43] 
+Checking feature information
+INFO [2025-12-17 11:43:43] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-17 11:43:43] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-17 11:43:43] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:43:43] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:43:43] Checking that feature data includes a 'Split' column
+INFO [2025-12-17 11:43:43] Checking that feature data includes a 'Flag' column
+INFO [2025-12-17 11:43:48] Pheno data was cleaned
+INFO [2025-12-17 11:43:48] Feature data was cleaned
+INFO [2025-12-17 11:48:37] Corner detected correctly at row 6, column P
+INFO [2025-12-17 11:48:37] 
+Extracting sample information from rows 1 to 6 and columns Q to AW
+INFO [2025-12-17 11:48:37] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-17 11:48:37] Naming the last column of sample information "Datafile"
+INFO [2025-12-17 11:48:37] 
+Extracting feature information from rows 7 to 10939 and columns A to P
+INFO [2025-12-17 11:48:37] 
+Extracting feature abundances from rows 7 to 10939 and columns Q to AW
+INFO [2025-12-17 11:48:37] QC column generated from rows containing 'QC'
+INFO [2025-12-17 11:48:37] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-17 11:48:37] Pheno data was cleaned
+INFO [2025-12-17 11:48:38] Initializing 'Flag' column with unflagged features
+INFO [2025-12-17 11:48:38] Creating Split column from Column, Ion Mode
+INFO [2025-12-17 11:48:38] Feature_ID column not found, creating feature IDs
+INFO [2025-12-17 11:48:38] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:48:38] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:48:38] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-17 11:48:38] Feature data was cleaned
+INFO [2025-12-17 11:48:38] 
+Checking sample information
+INFO [2025-12-17 11:48:38] Checking 'Injection_order' column in feature data
+INFO [2025-12-17 11:48:38] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-17 11:48:38] Checking 'QC' column in feature data
+INFO [2025-12-17 11:48:38] Checking that feature abundances only contain numeric values
+INFO [2025-12-17 11:48:39] 
+Checking feature information
+INFO [2025-12-17 11:48:39] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-17 11:48:39] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-17 11:48:39] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:48:39] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 11:48:39] Checking that feature data includes a 'Split' column
+INFO [2025-12-17 11:48:39] Checking that feature data includes a 'Flag' column
+INFO [2025-12-17 11:48:41] Pheno data was cleaned
+INFO [2025-12-17 11:48:41] Feature data was cleaned
+INFO [2025-12-17 11:58:15] 
+8% of features flagged for low detection rate
+INFO [2025-12-17 11:58:15] 
+7% of features flagged for Low QC detection rate
+INFO [2025-12-17 11:58:22] Starting drift correction
+INFO [2025-12-17 12:00:55] Recomputing quality metrics for drift corrected data
+INFO [2025-12-17 12:01:05] Drift correction performed
+INFO [2025-12-17 12:01:05] Inspecting drift correction results
+INFO [2025-12-17 12:01:05] Original quality metrics missing, recomputing
+INFO [2025-12-17 12:01:13] Drift correction results inspected: Drift_corrected: 60%,  Missing_QCS: 40%
+INFO [2025-12-17 12:01:13] 
+16% of features flagged for low quality
+INFO [2025-12-17 12:02:50] Starting drift correction
+INFO [2025-12-17 12:05:11] Recomputing quality metrics for drift corrected data
+INFO [2025-12-17 12:05:20] Drift correction performed
+INFO [2025-12-17 12:05:20] Inspecting drift correction results
+INFO [2025-12-17 12:05:20] Original quality metrics missing, recomputing
+INFO [2025-12-17 12:05:27] Drift correction results inspected: Drift_corrected: 30%,  Missing_QCS: 70%
+INFO [2025-12-17 12:05:28] Starting drift correction
+INFO [2025-12-17 12:07:58] Recomputing quality metrics for drift corrected data
+INFO [2025-12-17 12:08:07] Drift correction performed
+INFO [2025-12-17 12:08:07] Inspecting drift correction results
+INFO [2025-12-17 12:08:07] Original quality metrics missing, recomputing
+INFO [2025-12-17 12:08:15] Drift correction results inspected: Drift_corrected: 45%,  Missing_QCS: 55%
+INFO [2025-12-17 12:08:15] Starting drift correction
+INFO [2025-12-17 12:10:53] Recomputing quality metrics for drift corrected data
+INFO [2025-12-17 12:11:04] Drift correction performed
+INFO [2025-12-17 12:11:04] Inspecting drift correction results
+INFO [2025-12-17 12:11:04] Original quality metrics missing, recomputing
+INFO [2025-12-17 12:11:12] Drift correction results inspected: Drift_corrected: 54%,  Missing_QCS: 46%
+INFO [2025-12-17 12:11:12] 
+54% of features flagged for low quality
+INFO [2025-12-17 12:11:13] 
+44% of features flagged for low quality
+INFO [2025-12-17 12:11:13] 
+43% of features flagged for low quality
+INFO [2025-12-17 14:14:20] 
+5% of features flagged for low quality
+INFO [2025-12-17 14:14:25] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 14:14:25] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 14:14:25] 
+Starting feature clustering at 2025-12-17 14:14:25.437446
+INFO [2025-12-17 14:14:25] Finding connections between features in Rtx-5_EI
+INFO [2025-12-17 14:14:46] Found 0 connections in Rtx-5_EI
+INFO [2025-12-17 14:14:46] Found 0 connections
+INFO [2025-12-17 14:14:46] Found 0 clusters of 2 or more features, clustering finished at 2025-12-17 14:14:46.858935
+INFO [2025-12-17 14:14:47] Clusters compressed, left with 8979 features
+INFO [2025-12-17 14:15:12] Starting PQN normalization
+INFO [2025-12-17 14:15:12] Using median of qc samples as reference spectrum
+INFO [2025-12-17 14:16:36] Pheno data was cleaned
+INFO [2025-12-17 14:16:36] Feature data was cleaned
+INFO [2025-12-17 14:34:40] Corner detected correctly at row 6, column P
+INFO [2025-12-17 14:34:40] 
+Extracting sample information from rows 1 to 6 and columns Q to AW
+INFO [2025-12-17 14:34:40] Replacing spaces in sample information column names with underscores (_)
+INFO [2025-12-17 14:34:40] Naming the last column of sample information "Datafile"
+INFO [2025-12-17 14:34:40] 
+Extracting feature information from rows 7 to 10939 and columns A to P
+INFO [2025-12-17 14:34:40] 
+Extracting feature abundances from rows 7 to 10939 and columns Q to AW
+INFO [2025-12-17 14:34:40] QC column generated from rows containing 'QC'
+INFO [2025-12-17 14:34:40] Sample ID generated from injection orders and prefix ID_
+INFO [2025-12-17 14:34:40] Pheno data was cleaned
+INFO [2025-12-17 14:34:41] Initializing 'Flag' column with unflagged features
+INFO [2025-12-17 14:34:41] Creating Split column from Column, Ion Mode
+INFO [2025-12-17 14:34:41] Feature_ID column not found, creating feature IDs
+INFO [2025-12-17 14:34:41] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 14:34:41] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 14:34:41] Creating feature IDs from Split, m/z and retention time
+INFO [2025-12-17 14:34:41] Feature data was cleaned
+INFO [2025-12-17 14:34:41] 
+Checking sample information
+INFO [2025-12-17 14:34:41] Checking 'Injection_order' column in feature data
+INFO [2025-12-17 14:34:41] Checking 'Sample_ID' column in pheno data
+INFO [2025-12-17 14:34:41] Checking 'QC' column in feature data
+INFO [2025-12-17 14:34:41] Checking that feature abundances only contain numeric values
+INFO [2025-12-17 14:34:41] 
+Checking feature information
+INFO [2025-12-17 14:34:41] Checking that feature IDs are unique and not storedas numbers
+INFO [2025-12-17 14:34:41] Checking that m/z and retention time values are reasonable.
+INFO [2025-12-17 14:34:41] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 14:34:41] Identified m/z column mass and retention time column RT
+INFO [2025-12-17 14:34:41] Checking that feature data includes a 'Split' column
+INFO [2025-12-17 14:34:41] Checking that feature data includes a 'Flag' column
+INFO [2025-12-17 14:34:43] Pheno data was cleaned
+INFO [2025-12-17 14:34:43] Feature data was cleaned
+INFO [2025-12-17 15:51:30] Pheno data was cleaned
+INFO [2025-12-17 15:51:30] Feature data was cleaned

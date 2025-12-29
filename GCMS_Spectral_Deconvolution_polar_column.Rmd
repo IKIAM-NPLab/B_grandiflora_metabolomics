@@ -209,11 +209,11 @@ Exporting spectra to NIST MS Search software identification with NIST-20 library
 export2MSP(peak_iden.3to21,
            store.path = "Result/eRah_3to21min_Polar_Column",
            alg.version = 2)
-# 43.0-53.5 min dataset
+# 21.0-37.5 min dataset
 export2MSP(peak_iden.21to37,
            store.path = "Result/eRah_21to37min_Polar_Column",
            alg.version = 2)
-# 53.5-58.0 min dataset
+# 37.5-44.0 min dataset
 export2MSP(peak_iden.37to44,
            store.path = "Result/eRah_37to44min_Polar_Column",
            alg.version = 2)
